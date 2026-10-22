@@ -79,3 +79,9 @@ A Gmail draft with inline images, plus the subject line and a short summary of t
 - Perplexity's Sonar Chat Completions API was retired on 2026-09-27. `research_topic.py` uses the Agent API (`/v1/agent`, `preset` + `input`, recency via `tools[].filters`).
 - Kie.ai returns HTTP 200 even on errors; the tool checks the `code` field. Code 402 means out of credits.
 - Kie.ai image URLs expire after 14 days, which is why images are downloaded and embedded inline (CID) rather than hotlinked.
+- Perplexity's `[n]` markers refer to the numbered **Sources list at the end of the answer text**, not to the `id`s in `research.json`'s `sources` array (that array holds every raw search result, often 150+, regardless of `--max-results`). Take source URLs from the answer's own list.
+- Perplexity can include items older than the recency window (e.g. a launch from 3 weeks earlier). Check dates and drop stale stories for a weekly issue.
+- A `medium` preset research run cost about $0.02 (2026-10-22).
+- Kie.ai images take about 5-20 seconds each; running the 3 generations in parallel works fine.
+- Nano Banana still misspells words in images (e.g. "OpenSandbok" for "OpenSandbox"). Always view each image before rendering, and keep in-image labels short and few. Ask the user before regenerating.
+- Gmail setup failures seen on first run: "Access blocked / has not completed verification" means the user's Gmail address must be added as a **test user** on the OAuth consent screen; a 403 `accessNotConfigured` means the **Gmail API is not enabled** in the Cloud project. Once `token.json` exists, no browser sign-in is needed.

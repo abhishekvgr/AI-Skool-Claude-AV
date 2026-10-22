@@ -33,7 +33,7 @@ You need:
 - A **Kie.ai API key** with credits (https://kie.ai/api-key)
 - A **Google OAuth client** for Gmail:
   1. In Google Cloud Console, create a project and enable the **Gmail API**.
-  2. Configure the OAuth consent screen (External, add yourself as a test user).
+  2. Configure the OAuth consent screen (External, Testing) and add your Gmail address as a **test user**. Without this, sign-in fails with "Access blocked".
   3. Create an OAuth client ID of type **Desktop app** and download it as `credentials.json` into this folder.
 
 ## Usage
