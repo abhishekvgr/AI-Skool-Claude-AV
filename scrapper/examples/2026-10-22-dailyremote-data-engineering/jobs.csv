@@ -1,0 +1,1743 @@
+job_id,title,company,job_url,apply_url,salary,job_type,location,experience,category,posted,skills,summary,description,scrape_status,scraped_at
+5809737,Senior Data Engineering Developer,Geisinger,https://dailyremote.com/remote-job/senior-data-engineering-developer-5809737,https://dailyremote.com/apply/5809737?nonce=54a6245b74d5a7d2,,Full Time,United States,10+ yrs,Software Development,1 hour ago,"aws, sql, cloud, architecture, user-interface, communication, training, testing, data-engineering, documentation, organization, data-engineer","Develop and maintain scalable Databricks data models and PySpark/SQL pipelines that transform clinical and genomic data for research applications, including modernizing legacy SQL Server ETL processes for the cloud. Optimize and monitor data quality, performance, and reliability while contributing to architecture, code reviews, documentation, user support, and team mentoring.","Location:
+
+Work from home (Pennsylvania)
+
+Shift:
+
+Days (United States of America)
+
+Scheduled Weekly Hours:
+
+40
+
+Worker Type:
+
+Regular
+
+Exemption Status:
+
+Yes
+
+Job Summary:
+
+The Geisinger Research Data Core is responsible for transforming and managing clinical and genomic data for research use. As part of a collaborative and multidisciplinary team, this position develops and maintains data systems and pipelines that support research applications and the use of large-scale clinical and genomic datasets. The role provides key insight into data architecture, data modeling, and application development and engages in all aspects of the development life cycle as needed for each project to be successful.
+
+We are seeking a skilled Senior Data Engineer with experience in cloud-based data platforms, particularly the Databricks platform and AWS. The ideal candidate will be responsible for modeling clinical data within the Databricks environment, developing and maintaining scalable data pipelines, and modernizing legacy ETL processes for cloud environments. The position will also support data quality, performance optimization, monitoring, and general Databricks computing needs for research and analytical applications.
+
+Job Duties:
+
+- Designs, develops, and maintains PySpark and SQL data pipelines for transforming clinical data for research use.
+
+- Develops and maintains data models for clinical and other research data within the Databricks environment.
+- Reviews, analyzes, modifies, creates, debugs, designs, and tests data ingestion and processing pipelines using modern development methodologies and tools.
+- Defines and optimizes data warehouse schemas and data models to support efficient querying, storage, and analytical workflows.
+- Ensures scalability, reliability, and maintainability of data pipelines and data architecture supporting large clinical and research datasets.
+- Implements and monitors data quality checks and validation processes to ensure accuracy, completeness, and integrity of data throughout the pipeline.
+- Troubleshoots and optimizes Spark and SQL workloads, data pipelines, and Databricks compute resources to improve performance and reliability.
+- Modernizes existing on-premises Microsoft SQL Server ETL processes by designing and implementing equivalent cloud-based data pipelines and workflows in Databricks.
+- Provides general Databricks computing support, including assisting users with compute resource selection, troubleshooting, and optimization of Spark and SQL workloads.
+- Participates in design and application architecture discussions and assists in the development and documentation of technical approaches and solutions for team stakeholders.
+- Responsible for the process, life cycle and creation of the software to assist users in completing a computer task or program.
+- Implements code and documents all system changes based on assignments and timelines.
+- Develops and follows department coding and user interface guidelines.
+- Provides code review, testing, debugging, technical documentation, general testing instructions, go-live planning, assistance in go-live moves, and post-live support.
+- Communicates all progress, roadblocks, and issues to the team and management in a timely manner.
+- Collaborates with team members to identify and resolve issues, improve system performance, and ensure code quality.
+- Provides training and documentation to team members on new development assignments.
+- Trains and mentors staff members.
+- Assists in the development and documentation of a technical approach for a solution to the team stakeholders.
+
+Work is typically performed in an office environment. Accountable for satisfying all job specific obligations and complying with all organization policies and procedures. The specific statements in this profile are not intended to be all-inclusive. They represent typical elements considered necessary to successfully perform the job.
+
+*Relevant experience may be a combination of related work experience and degree obtained (Associate’s Degree = 2 years; Bachelor’s Degree = 4 years; Master’s Degree = 6 years).
+
+Position Details:
+
+Requirements:
+
+- Proven experience with Databricks and cloud-based data engineering platforms.
+- Strong experience with SQL and Python/PySpark for developing and optimizing data processing pipelines.
+- Experience with Apache Spark or other distributed data processing technologies.
+- Experience designing and implementing data models and data warehouse schemas for large-scale datasets.
+- Experience developing, maintaining, or modernizing ETL processes and data pipelines.
+- Experience working with relational databases and SQL Server
+- Experience migrating or modernizing on-premises ETL processes is preferred.
+- Familiarity with AWS cloud services and cloud-based data architectures.
+- Experience with data quality, validation, monitoring, logging, and troubleshooting practices.
+- Understanding of data pipeline performance optimization and scalable data processing.
+- Excellent communication skills to convey progress, roadblocks, technical issues, and solutions to team members and management.
+- Ability to work effectively as part of a multidisciplinary team and collaborate with technical and research stakeholders.
+
+Education:
+
+High School Diploma or Equivalent (GED)- (Required), Bachelor's Degree-Technology Related Degree (Preferred)
+
+Experience:
+
+Minimum of 10 years-Related work experience (Required)
+
+Certification(s) and License(s):
+
+Skills:
+
+Critical Thinking, Interpersonal Communication, Leads Others
+
+OUR PURPOSE & VALUES: Everything we do is about caring for our patients, our members, our students, our Geisinger family and our communities.
+
+- KINDNESS: We strive to treat everyone as we would hope to be treated ourselves.
+- EXCELLENCE: We treasure colleagues who humbly strive for excellence.
+- LEARNING: We share our knowledge with the best and brightest to better prepare the caregivers for tomorrow.
+- INNOVATION: We constantly seek new and better ways to care for our patients, our members, our community, and the nation.
+- SAFETY: We provide a safe environment for our patients and members and the Geisinger family.
+
+We offer healthcare benefits for full time and part time positions from day one, including vision, dental and domestic partners. Perhaps just as important, we encourage an atmosphere of collaboration, cooperation and collegiality.
+
+Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, pregnancy, genetic information, disability, status as a protected veteran, or any other protected category under applicable federal, state, and local laws.",ok,2026-10-22 21:42 UTC
+5808981,"Director, Data Engineering - RWD",Parexel,https://dailyremote.com/remote-job/director-data-engineering-rwd-5808981,https://dailyremote.com/apply/5808981?nonce=7d9e09c5f0e331fe,,Full Time,"Oman, Poland, Romania +1 more",10+ yrs,Others,3 hours ago,"cloud, architecture, clinical-research, azure, reporting, leadership, data-engineering","Lead and coordinate Real-World Data engineering delivery across ingestion, engineering, and distribution, including roadmap planning, prioritization, dependencies, governance, and value tracking. Provide technical leadership for scalable, high-quality, reusable data products while aligning engineering teams and business stakeholders across clinical operations, commercial, analytics, and governance.","When our values align, there's no limit to what we can achieve.
+
+At Parexel, we all share the same goal - to improve the world's health. From clinical trials to regulatory, consulting, and market access, every clinical development solution we provide is underpinned by something special - a deep conviction in what we do.
+
+Each of us, no matter what we do at Parexel, contributes to the development of a therapy that ultimately will benefit a patient. We take our work personally, we do it with empathy and we're committed to making a difference.
+
+Parexel is in the business of improving the world’s health. We do this by providing a suite of biopharmaceutical services that help clients across the globe transform scientific discoveries into new treatments.  We believe in our values, _Patients First, Quality, Respect, Empowerment & Accountability._
+
+This role will work within our innovative _Data & Technology group_ that continues to evolve to meet business needs, fuel Parexel's growth and enable improved support for stakeholders, including customers and ultimately patients, who will benefit from Parexel's integrated processes and systems.
+
+This role can be based in the _UK_, _Poland or Romania_ and can be _fully home based_ and _remote working_ anywhere in any of _these locations only_.
+
+As t _he Director, Data Engineering -_ _RWD_ is a domain-aligned technical execution leader with predominant experience in life sciences, clinical research, and Real-World Data, responsible for orchestrating and driving delivery across Data Ingestion, Data Engineering, and Data Distribution for RWD and related enterprise data products.
+
+This is a strong individual contributor role with no direct line management authority, however it requires strong matrixed leadership, technical credibility, and influence across data engineering, Clinical Operations, Commercial, and broader business stakeholders to ensure that life sciences data priorities are translated into executable plans and delivered with consistency, transparency, regulatory awareness, and measurable impact.
+
+You will partner with Data and Technology, the Data and Analytics CoE, Clinical Operations, Commercial, business domain stakeholders, platform teams, governance partners, and delivery teams to translate life sciences and Real-World Data needs into executable engineering priorities.
+
+You will lead intake management, roadmap shaping, prioritization, dependency management, stakeholder alignment, delivery governance, and value tracking, while establishing clear ownership, managing dependencies, coordinating delivery sequencing, and ensuring trusted, high-quality, governed, and reusable data assets are available for analytics, AI enablement, operational reporting, regulatory-aligned use cases, and sponsor-facing distribution.
+
+What You'll Lead:
+
+RWD Data Domain Engineering & Orchestration
+
+- Act as the domain-aligned engineering coordination / orchestration lead for Real-World Data in a life sciences context, connecting clinical research, operational, and commercial priorities to executable plans across ingestion, transformation, curation, and distribution.
+- Drive delivery across Data Ingestion, Data Engineering, and Data Distribution teams, ensuring clear scope, sequencing, dependency management, and execution follow-through.
+- Provide technical leadership for scalable RWD pipelines, lakehouse design, architecture, data quality controls, metadata practices, and reusable data product patterns.
+
+Matrixed Execution Leadership & Cross-Functional Orchestration
+
+- Serve as the primary matrixed coordination point between RWD stakeholders, Clinical Operations, Commercial, life sciences business domain owners, architects, engineers, governance teams, analytics teams, and downstream consumers.
+- Lead intake, prioritization, roadmap shaping, delivery planning, and operating cadence for RWD data initiatives, balancing urgency, capacity, quality, risk, compliance, and business value.
+- Influence execution across teams without direct authority by building shared understanding, clarifying tradeoffs, resolving blockers, and driving commitment to agreed outcomes.
+
+Technical Leadership, Team Enablement & Delivery Discipline
+
+- Coordinate across data engineering teams and stakeholders to align expectations for technical quality, execution discipline, stakeholder engagement, and delivery accountability.
+
+- Champion capability development in cloud data engineering, Azure Databricks, lakehouse architecture, CI/CD, SQL, Python, data observability, governance, and secure data distribution.
+
+- Track delivered outputs against planned KPIs and expected value measures to ensure the data capability delivered the intended business, operational, clinical, and stakeholder outcomes.
+
+What We're Looking For:
+
+Skills:
+
+- Deep technical expertise in enterprise data engineering, including ingestion patterns, transformation frameworks, lakehouse architecture, medallion design, data quality, metadata management, and operational support.
+
+- Strong matrixed leadership and orchestration skills, with demonstrated ability to influence and align technical/data engineering, Clinical Operations, Commercial, governance, analytics, and business stakeholders without relying on direct reporting relationships.
+
+- Predominant experience with life sciences data environments, including Real-World Data, clinical research data, healthcare data, regulated data environments, GxP expectations, privacy controls, sponsor/client needs, and data governance.
+
+- Strong business stakeholder engagement skills, with experience aligning technology capabilities to clinical, operational, commercial, and sponsor-facing outcomes
+
+- Hands-on knowledge of cloud data platforms and engineering tools, particularly Azure Databricks, Azure Data Lake, SQL, Python, Spark, APIs, orchestration frameworks, CI/CD, and monitoring practices.
+
+- Ability to apply product- and program-management discipline, structured delivery discipline, and coordination/orchestration discipline to data engineering delivery, including intake management, roadmap development, backlog shaping, prioritization, dependency management, delivery tracking, success measures, and stakeholder-ready communications.
+
+- Proven ability to manage cross-team dependencies, delivery risks, prioritization tradeoffs, capacity constraints, and competing stakeholder expectations in a matrixed organization.
+
+Knowledge and Experience
+
+- Strong advanced level experience of IT, data, analytics, or technology, with a predominant focus on life sciences, clinical research, healthcare data, RWD, or regulated data environments, including significant hands-on leadership in enterprise data engineering, integration, cloud platforms, and data delivery.
+
+- Previous high level experience leading complex data engineering, data delivery, or analytics platform initiatives in life sciences, clinical research, healthcare, or RWD environments through matrixed leadership, including coordination across ingestion, engineering, distribution, Clinical Operations, Commercial, governance, analytics, and business stakeholders.
+
+- Strong previous technical leadership or matrixed delivery leadership experience, including:
+
+- Successfully developing and implementing applications in new computing architecture environments using innovative technologies.
+
+- Influencing technical and business teams across multiple project lifecycle phases; cross-functional leadership across technical, clinical, commercial, governance, and analytics stakeholders is highly desirable.
+
+- Leading resources to achieve goals across multiple projects.
+
+- Developing efficient and effective solutions to complex business challenges.
+
+- Experience working directly with business and operational stakeholders to translate business needs into technology priorities, delivery plans, success measures, and realized outcomes.
+
+- Experience in life sciences, clinical research, healthcare, RWD, or regulated data environments is expected; experience with clinical trial operations, sponsor-facing data delivery, regulatory-aware analytics, or commercial life sciences data is strongly preferred.
+
+Education
+
+- Bachelor's degree in Computer Science, Information Systems, or a related field (required)
+
+In return we will be able to offer you a structured career pathway and encouragement to develop within the role including awareness and understanding of the industry.  You will be well supported and in return for your hard work you will be rewarded with a competitive base salary, bonus, car allowance and holiday as well as other leading benefits you would expect with a top company in the CRO Industry.
+
+_Apply today to begin your Parexel journey!_
+
+#LI-LG2",ok,2026-10-22 21:42 UTC
+5807013,DE&A - GCP Data Engineering,Zensar,https://dailyremote.com/remote-job/de-a-gcp-data-engineering-5807013,https://dailyremote.com/apply/5807013?nonce=954dc911598e5a1f,,Full Time,India,5-10 yrs,Software Development,10 hours ago,"medical, data-engineer","The role involves designing, engineering, and managing digital data solutions within the Google Cloud Platform environment. You will be responsible for delivering high-quality data engineering projects to support global enterprise clients.","GCP Data Engineer - 6+ Year
+
+### Responsibilities
+
+GCP Data Engineer - 6+ Year
+
+### Qualifications
+
+GCP Data Engineer - 6+ Year
+
+At Zensar, we’re _“experience-led everything”_. We are committed to conceptualizing, designing, engineering, marketing, and managing digital solutions and experiences for over 130 leading enterprises. We are a company driven by a bold purpose: _Together, we shape experiences for better futures_. Whether for our clients, our people, or the world around us, this belief powers everything we do. At the heart of our culture is _ONE with Client_ \- a set of four core values that reflect who we are and how we work: _One Zensar, Nurturing, Empowering, and Client Focus_.
+
+Part of the $4.8 billion RPG Group, we’re a community of 10,000+ innovators across 30+ global locations, including Milpitas, Seattle, Princeton, Cape Town, London, Zurich, Singapore, and Mexico City. Explore [Life at Zensar](https://www.zensar.com/careers/) and join us to [Grow. Own. Achieve. Learn.](https://www.youtube.com/embed/i2NZsiQqVnU?autoplay=1&fs=1) to be the best version of yourself.
+
+We believe the best work happens when individuality is celebrated, growth is encouraged, and well-being is prioritized. We are an equal employment opportunity (EEO) and affirmative action employer, committed to creating an inclusive workplace. All qualified applicants will be considered without regard to race, creed, color, ancestry, religion, sex, national origin, citizenship, age, sexual orientation, gender identity, disability, marital status, family medical leave status, or protected veteran status.",ok,2026-10-22 21:42 UTC
+5807012,DE&A -Data Engineering Apache,Zensar,https://dailyremote.com/remote-job/de-a-data-engineering-apache-5807012,https://dailyremote.com/apply/5807012?nonce=eace6a278812c031,,Full Time,India,5-10 yrs,Others,10 hours ago,"python, scala, sql, security, medical, data-engineering, kafka","Design, develop, and implement scalable data pipelines and architectures for enterprise data platforms. Lead end-to-end delivery of data engineering initiatives while ensuring platform reliability, data quality, and governance compliance.","Design, develop, and implement scalable, resilient, and high-performance data pipelines and data architecturesfor enterprise data platforms.
+
+·      Build and optimize ETL/ELT pipelines supporting batch, near-real-time, and streaming data processing requirements.
+
+·      Design and implement enterprise data ingestion and integration workflows using Apache NiFi, including data routing, transformation, orchestration, monitoring, and integration across heterogeneous data sources and platforms.
+
+·      Develop distributed data processing solutions using Apache Spark with Scala and/or Python (PySpark).
+
+·      Design and implement data solutions across relational database management systems (RDBMS) and modern data lakehouse technologies such as Apache Iceberg.
+
+·      Build and optimize federated and distributed SQL capabilities using Starburst and Trino query engines.
+
+·      Develop event-driven and real-time data processing solutions using Apache Kafka and Spark Streaming / Structured Streaming.
+
+·      Lead end-to-end delivery of enterprise-scale data engineering initiatives involving multiple engineering, product, architecture, and business teams.
+
+·      Strengthen platform reliability through automation, CI/CD, testing, monitoring, observability, documentation, and operational excellence.
+
+·      Improve data quality, performance, scalability, resiliency, and cost efficiency across data platforms and pipelines.
+
+·      Support enterprise data governance by maintaining metadata, technical and business documentation, data lineage, data quality controls, and secure access to data assets.
+
+·      Partner with security and governance teams to ensure data solutions meet enterprise requirements for privacy, security, access control, compliance, and data lifecycle management.
+
+·      Troubleshoot complex production issues, perform root-cause analysis, and implement sustainable solutions to improve platform stability.
+
+·      Collaborate effectively with stakeholders across engineering, architecture, analytics, AI/ML, governance, product, and business organizations.
+
+At Zensar, we’re _“experience-led everything”_. We are committed to conceptualizing, designing, engineering, marketing, and managing digital solutions and experiences for over 130 leading enterprises. We are a company driven by a bold purpose: _Together, we shape experiences for better futures_. Whether for our clients, our people, or the world around us, this belief powers everything we do. At the heart of our culture is _ONE with Client_ \- a set of four core values that reflect who we are and how we work: _One Zensar, Nurturing, Empowering, and Client Focus_.
+
+Part of the $4.8 billion RPG Group, we’re a community of 10,000+ innovators across 30+ global locations, including Milpitas, Seattle, Princeton, Cape Town, London, Zurich, Singapore, and Mexico City. Explore [Life at Zensar](https://www.zensar.com/careers/) and join us to [Grow. Own. Achieve. Learn.](https://www.youtube.com/embed/i2NZsiQqVnU?autoplay=1&fs=1) to be the best version of yourself.
+
+We believe the best work happens when individuality is celebrated, growth is encouraged, and well-being is prioritized. We are an equal employment opportunity (EEO) and affirmative action employer, committed to creating an inclusive workplace. All qualified applicants will be considered without regard to race, creed, color, ancestry, religion, sex, national origin, citizenship, age, sexual orientation, gender identity, disability, marital status, family medical leave status, or protected veteran status.",ok,2026-10-22 21:43 UTC
+5807011,DE&A -Data Engineering Apache,Zensar,https://dailyremote.com/remote-job/de-a-data-engineering-apache-5807011,https://dailyremote.com/apply/5807011?nonce=78f5b666fbb2f90b,,Full Time,India,5-10 yrs,Others,10 hours ago,"python, scala, sql, security, medical, software-engineering, data-engineering, kafka","Design, develop, and implement scalable data pipelines and architectures for enterprise data platforms. Lead end-to-end delivery of data engineering initiatives while ensuring platform reliability, security, and data governance.","Design, develop, and implement scalable, resilient, and high-performance data pipelines and data architecturesfor enterprise data platforms.
+
+·      Build and optimize ETL/ELT pipelines supporting batch, near-real-time, and streaming data processing requirements.
+
+·      Design and implement enterprise data ingestion and integration workflows using Apache NiFi, including data routing, transformation, orchestration, monitoring, and integration across heterogeneous data sources and platforms.
+
+·      Develop distributed data processing solutions using Apache Spark with Scala and/or Python (PySpark).
+
+·      Design and implement data solutions across relational database management systems (RDBMS) and modern data lakehouse technologies such as Apache Iceberg.
+
+·      Build and optimize federated and distributed SQL capabilities using Starburst and Trino query engines.
+
+·      Develop event-driven and real-time data processing solutions using Apache Kafka and Spark Streaming / Structured Streaming.
+
+·      Lead end-to-end delivery of enterprise-scale data engineering initiatives involving multiple engineering, product, architecture, and business teams.
+
+·      Strengthen platform reliability through automation, CI/CD, testing, monitoring, observability, documentation, and operational excellence.
+
+·      Improve data quality, performance, scalability, resiliency, and cost efficiency across data platforms and pipelines.
+
+·      Support enterprise data governance by maintaining metadata, technical and business documentation, data lineage, data quality controls, and secure access to data assets.
+
+·      Partner with security and governance teams to ensure data solutions meet enterprise requirements for privacy, security, access control, compliance, and data lifecycle management.
+
+·      Troubleshoot complex production issues, perform root-cause analysis, and implement sustainable solutions to improve platform stability.
+
+·      Collaborate effectively with stakeholders across engineering, architecture, analytics, AI/ML, governance, product, and business organizations.
+
+### Responsibilities
+
+7+ years of experience in Data Engineering, Software Engineering, Enterprise Data Platforms, or a related technical discipline.
+
+·      Strong hands-on experience designing and delivering enterprise-scale data pipelines and data architectures.
+
+·      Strong understanding of ETL and ELT patterns, data integration, data modeling, and distributed data processing.
+
+·      Hands-on development experience with Apache Spark using Scala and/or Python/PySpark.
+
+·      Experience working with RDBMS technologies and modern lakehouse/table formats, preferably Apache Iceberg.
+
+·      Experience with distributed SQL/query technologies such as Starburst and Trino.
+
+·      Experience designing real-time and streaming data solutions using technologies such as Apache Kafka and Spark Streaming.
+
+·      Understanding of integration patterns across NiFi, Kafka, Spark, RDBMS, and lakehouse platforms for batch and real-time data processing.
+
+·      Strong knowledge of software engineering practices including CI/CD, automated testing, source control, infrastructure/platform automation, observability, and production support.
+
+·      Experience with data governance, metadata management, data lineage, data quality, and secure data access in enterprise environments.
+
+·      Proven ability to lead end-to-end delivery of enterprise-scale data engineering initiatives across multiple teams.
+
+·      Ability to lead technical discussions, influence architectural decisions, establish engineering standards, and mentor engineers.
+
+·      Excellent problem-solving, communication, stakeholder management, and cross-functional collaboration skills.
+
+·      Ability to translate complex business and technical requirements into scalable, maintainable, and production-ready data engineering solutions.
+
+·      Demonstrated ownership mindset with a strong focus on engineering quality, platform reliability, security, scalability, and operational excellence.
+
+### Qualifications
+
+NA
+
+At Zensar, we’re _“experience-led everything”_. We are committed to conceptualizing, designing, engineering, marketing, and managing digital solutions and experiences for over 130 leading enterprises. We are a company driven by a bold purpose: _Together, we shape experiences for better futures_. Whether for our clients, our people, or the world around us, this belief powers everything we do. At the heart of our culture is _ONE with Client_ \- a set of four core values that reflect who we are and how we work: _One Zensar, Nurturing, Empowering, and Client Focus_.
+
+Part of the $4.8 billion RPG Group, we’re a community of 10,000+ innovators across 30+ global locations, including Milpitas, Seattle, Princeton, Cape Town, London, Zurich, Singapore, and Mexico City. Explore [Life at Zensar](https://www.zensar.com/careers/) and join us to [Grow. Own. Achieve. Learn.](https://www.youtube.com/embed/i2NZsiQqVnU?autoplay=1&fs=1) to be the best version of yourself.
+
+We believe the best work happens when individuality is celebrated, growth is encouraged, and well-being is prioritized. We are an equal employment opportunity (EEO) and affirmative action employer, committed to creating an inclusive workplace. All qualified applicants will be considered without regard to race, creed, color, ancestry, religion, sex, national origin, citizenship, age, sexual orientation, gender identity, disability, marital status, family medical leave status, or protected veteran status.",ok,2026-10-22 21:43 UTC
+5806653,DE&A - Core - Cloud Data Engineering - Informatica Cloud,Zensar,https://dailyremote.com/remote-job/de-a-core-cloud-data-engineering-informatica-cloud-5806653,https://dailyremote.com/apply/5806653?nonce=bbb4a0068c6d6b7e,,Full Time,India,5-10 yrs,Software Development,14 hours ago,"unix, sql, cloud, medical, communication, data-management, data-engineering","Develop, enhance, and maintain ETL processes using Informatica PowerCenter and Cloud Data Integration while leading migration efforts to IDMC. Collaborate with cross-functional teams to integrate data across platforms and optimize workflows for performance and scalability.","Key Skills & Experience - ETL / Informatica IDMC Developer:
+
+·Strong hands-on experience with Informatica PowerCenter and Informatica Intelligent Data Management Cloud (IDMC/IICS).
+
+- Proven experience in at least one end-to-end migration project from Informatica PowerCenter to IDMC.
+- Expertise in designing, developing, and supporting ETL/ELT solutions using:
+  - Cloud Data Integration (CDI)
+  - Mass Ingestion
+  - Cloud Application Integration (CAI)
+  - Data Quality (DQ)
+- Hands-on experience integrating data from REST APIs using Informatica IDMC/IICS REST V2 Connector or Web Services Connector.
+- Strong understanding of JSON/XML payloads, API authentication, pagination handling, and loading data into relational databases and cloud data warehouse platforms.
+- Excellent SQL development skills with experience in:
+  - Oracle
+  - Snowflake
+  - Query optimization and performance tuning
+- Strong experience in UNIX/Linux Shell Scripting for automation, orchestration, and support activities.
+
+### Responsibilities
+
+- Develop, enhance, and maintain ETL processes using Informatica PowerCenter and Informatica Cloud Data Integration (CDI).
+- Lead or contribute to migration efforts from PowerCenter to IDMC/CDI.
+- Integrate data across various platforms including Oracle, SQL Server, and Snowflake.
+- Leverage REST APIs within IDMC CDI to connect with internal and external applications and systems.
+- Collaborate with business and technical teams to understand data requirements and translate them into effective integration solutions.
+- Work independently to analyze complex source-to-target mappings and resolve data integration challenges.
+- Troubleshoot and optimize data workflows for issue resolution, performance, and scalability in a cloud environment.
+- Develop and maintain SQL queries and Unix Shell scripts as part of data workflows and automation.
+- Document ETL processes, data flows, and system integrations effectively.
+
+### Qualifications
+
+Required Qualifications:
+
+- 5+ years of hands-on experience with Informatica PowerCenter.
+- 3+ years of experience with Informatica Cloud Data Integration (CDI).
+- Experience with IDMC migration projects is a strong plus.
+- Strong understanding of ETL architecture, data modeling concepts, and data warehousing best practices.
+- Proficiency in SQL (complex queries, optimization) and Shell scripting.
+- Ability to work independently with minimal supervision in a fast-paced environment.
+- Excellent problem-solving skills and a proactive attitude toward learning and development.
+
+Preferred Qualifications:
+
+- Experience with Informatica Data Management Cloud Services (IDMC), Data Quality (IDQ), or other IDMC components.
+- Exposure to cloud platforms such as AWS, Azure, or GCP.
+- Familiarity with job scheduling tools (e.g., Control-M, Autosys).
+- Good communication and interpersonal skills to interact with cross-functional teams.
+
+At Zensar, we’re _“experience-led everything”_. We are committed to conceptualizing, designing, engineering, marketing, and managing digital solutions and experiences for over 130 leading enterprises. We are a company driven by a bold purpose: _Together, we shape experiences for better futures_. Whether for our clients, our people, or the world around us, this belief powers everything we do. At the heart of our culture is _ONE with Client_ \- a set of four core values that reflect who we are and how we work: _One Zensar, Nurturing, Empowering, and Client Focus_.
+
+Part of the $4.8 billion RPG Group, we’re a community of 10,000+ innovators across 30+ global locations, including Milpitas, Seattle, Princeton, Cape Town, London, Zurich, Singapore, and Mexico City. Explore [Life at Zensar](https://www.zensar.com/careers/) and join us to [Grow. Own. Achieve. Learn.](https://www.youtube.com/embed/i2NZsiQqVnU?autoplay=1&fs=1) to be the best version of yourself.
+
+We believe the best work happens when individuality is celebrated, growth is encouraged, and well-being is prioritized. We are an equal employment opportunity (EEO) and affirmative action employer, committed to creating an inclusive workplace. All qualified applicants will be considered without regard to race, creed, color, ancestry, religion, sex, national origin, citizenship, age, sexual orientation, gender identity, disability, marital status, family medical leave status, or protected veteran status.",ok,2026-10-22 21:43 UTC
+5806353,Manager of Data Engineering,Northrop Grumman,https://dailyremote.com/remote-job/manager-of-data-engineering-5806353,https://dailyremote.com/apply/5806353?nonce=efe0759cba600b0f,$133K - $199K per year,Full Time,United States,5-10 yrs,Others,18 hours ago,"insurance, cloud, architecture, communication, data-engineering, mentoring, history",The manager will lead a team of data and software engineers to develop reliable data systems and define the technical roadmap. They are responsible for driving end-to-end delivery of data pipelines in Databricks while mentoring staff and ensuring engineering best practices.,"RELOCATION ASSISTANCE: No relocation assistance available
+
+CLEARANCE REQUIRED FOR START: No
+
+CLEARANCE TYPE: Secret
+
+TRAVEL: Yes, 10% of the Time
+
+## Description
+
+At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history - from the first flight across the Atlantic Ocean, to stealth bombers, to landing on the moon. We look for people who have bold new ideas, courage and a pioneering spirit to join forces to invent the future, and have fun along the way. Our culture thrives on intellectual curiosity, cognitive diversity and bringing your whole self to work — and we have an insatiable drive to do what others think is impossible. Our employees are not only part of history, they're making history.
+
+Insights & Intelligence (i2) is reimagining decision making at Northrop Grumman. As part of our Chief Information & Digital Office (CIDO), i2 works with all enterprise domains and businesses to drive our data, analytics & AI transformation.
+
+As a leader, you will manage a team of data and software engineers working across critical domains of the business. In this role, you will directly influence how we build our Databricks enterprise lakehouse and our culture of engineering excellence that enables the team to develop reliable data systems. You will have the opportunity to grow as an engineering leader, influencing the technical architecture and code standards on the team along with the technical roadmap and its execution.
+
+This position is supporting the corporate office in Falls Church, VA. We will consider virtual telecommuter candidates.
+
+Key responsibilities:
+
+- Define and maintain a data engineering roadmap; align technical priorities with business objectives and the Northrop Grumman data strategy.
+- Build and lead a high-performing, collaborative team; mentoring engineers on design patterns, code quality, data architecture, and career development.
+- Champion clean, modular architecture and enforce engineering best practices.
+- Drive end-to-end delivery of data pipelines in Databricks, ensuring reliability, scalability, and performance while meeting roadmap milestones.
+- Collaborate with leaders and teams across various functions, including business management, business development, facilities, human resources, supply chain, and manufacturing.
+
+Basic Qualifications:
+
+- Must have, at minimum, a Bachelor’s degree in Computer Science, Engineering, or a related field.
+- Must have a minimum of 8 years of experience in software or data engineering with a relevant Bachelors Degree OR 6 years of experience in software or data engineering with a relevant Masters Degree.
+- Must have a minimum of 2 years of experience in people management leading engineering teams.
+- Proficiency with Databricks (or comparable modern data lakehouse platforms), cloud services (AWS), and data pipelines.
+- Demonstrated skill in managing technical teams, process excellence, and meeting roadmap deliverables.
+- Strong communication and stakeholder management skills, with a demonstrated ability to influence both technical and executive audiences.
+
+Preferred Qualifications:
+
+- Master’s degree or PhD in Engineering or related field.
+- Deep domain expertise in one or more of the following areas: Finance, Supply Chain, Human Resources, or Manufacturing
+
+Primary Level Salary Range: $133,200.00 - $199,800.00
+
+The above salary range represents a general guideline; however, Northrop Grumman considers a number of factors when determining base salary offers such as the scope and responsibilities of the position and the candidate's experience, education, skills and current market conditions.
+
+Depending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay. Annual bonuses are designed to reward individual contributions as well as allow employees to share in company results. Employees in Vice President or Director positions may be eligible for Long Term Incentives. In addition, Northrop Grumman provides a variety of benefits including health insurance coverage, life and disability insurance, savings plan, Company paid holidays and paid time off (PTO) for vacation and/or personal business.
+
+The application period for the job is estimated to be 20 days from the job posting date. However, this timeline may be shortened or extended depending on business needs and the availability of qualified candidates.
+
+Northrop Grumman is an Equal Opportunity Employer, making decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, age, veteran status, disability, or any other protected class. For our complete EEO and pay transparency statement, please visit http://www.northropgrumman.com/EEO. U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.",ok,2026-10-22 21:43 UTC
+5805161,"Manager, Data Engineering",Capital Blue Cross,https://dailyremote.com/remote-job/manager-data-engineering-5805161,https://dailyremote.com/apply/5805161?nonce=961ef2372de4d750,$102K - $190K per year,Full Time,United States,5-10 yrs,Others,22 hours ago,"sql, artificial-intelligence, cloud, architecture, saas, communication, reporting, training, leadership, data-engineering, devops, compliance","The Manager of Data Engineering leads the team responsible for enterprise data platform strategy, design, and modernization. They oversee the development of scalable data solutions while establishing engineering standards and fostering collaboration across business and technology departments.","## Position Description
+
+_Base pay is influenced by several factors including a candidate’s qualifications, relevant experience, and anticipated contributions to meet the needs of the business, along with internal pay equity and external market driven rates. The salary range displayed has not been adjusted for geographical location. This range has been created in good faith based on information known to Capital Blue Cross at the time of posting and may be modified in the future. Capital Blue Cross offers a comprehensive benefits packaging including Medical, Dental & Vision coverage, a Retirement Plan, generous time off including Paid Time Off, Holidays, and Volunteer time off, an Incentive Plan, Tuition Reimbursement, and more._
+
+At Capital Blue Cross, we promise to go the extra mile for our team and our community. This promise is at the heart of our culture, and it’s why our employees consistently vote us one of the “Best Places to Work in PA.”
+
+The Manager, Data Engineering, is responsible for leading Capital's Data Engineering team and enterprise data platform strategy. This role oversees the design, development, integration, modernization, and operation of scalable, secure, and reliable data solutions that support reporting, analytics, regulatory requirements, artificial intelligence initiatives, and business operations. The Manager establishes engineering standards, drives data modernization efforts, develops team capabilities, and partners with technology and business leaders to deliver trusted, governed, and accessible enterprise data assets.
+
+## Responsibilities and Qualifications
+
+Data Engineering Strategy and Architecture
+
+- Provide leadership for the design, implementation, operation, and continuous improvement of Capital's enterprise data engineering capabilities.
+- Establish current and forward-looking technical direction, architecture standards, integration efficiencies and engineering practices supporting Snowflake and other enterprise data platforms to drive enhanced platform capabilities in partnership with stakeholders and business areas for meeting strategic objectives.
+
+Data Engineering Delivery and Team Leadership
+
+- Lead, coach, and develop a team of Data Engineers responsible for data platform delivery, operational support, modernization initiatives, and production reliability in cloud data engineering best practices.
+- Establish performance expectations, technical standards, and development plans that promote continuous learning and engineering excellence that meets or exceeds corporate defined objectives.
+- Manage team workload, resource allocation, priorities, and delivery commitments to ensure timely and high-quality outcomes.
+- Provide technical leadership through solution reviews, design guidance, code reviews, and engineering governance processes.
+
+Data Integration, Ingestion, and Modernization
+
+- Lead the design, implementation, and evolution of enterprise data ingestion, integration, transformation, and data delivery frameworks.
+- Establish reusable integration patterns supporting batch, API-based, file-based, streaming, event-driven, and other modern data exchange methods.
+- Guide modernization efforts to simplify, automate, migrate or consolidate legacy data warehouse, integration, and reporting technologies.
+- Develop and execute roadmaps in collaboration with stakeholders that support enterprise data platform adoption, onboard new data domains and build scalable capabilities with reduced technical debt.
+
+Operational Excellence and Engineering Standards
+
+- Establish and maintain engineering standards covering source control, testing, deployment, monitoring, documentation, release management, and production support.
+- Establish and monitor operational metrics to ensure reliable enterprise data platforms availability and continuous improvement opportunities identified, prioritized and implemented. Execute on identified corrective actions.
+- Promote the effective use of automation and approved AI-assisted development capabilities to improve engineering productivity and quality.
+
+Data Governance, Security, and Quality
+
+- Partner with Data Governance, Security, and business stakeholders to incorporate data quality, metadata, lineage, stewardship, privacy, and access controls into engineering solutions.
+- Ensure compliance with enterprise requirements related to data protection, regulatory obligations, auditability, retention, and appropriate use of sensitive information.
+- Support the delivery of governed, trusted, and documented data assets for enterprise reporting, analytics, applications, and artificial intelligence initiatives.
+
+Stakeholder Partnership and Planning
+
+- Develop and maintain the Data Engineering roadmap, aligning technology priorities with business, regulatory, operational, and strategic objectives.
+- Partner with business leaders, technology teams, vendors, and data stakeholders to understand requirements, establish priorities, evaluate tool selections and deliver sustainable data solutions.
+- Provide visibility into projects SDLC gates and communicate complex technical concepts, risks, tradeoffs, and recommendations to technical and non-technical audiences.
+
+Skills
+
+- Demonstrated ability to lead and develop a technical Data Engineering team, including coaching, work assignment, quality review, delivery accountability, and skills development.
+- Strong ability to establish and operationalize engineering standards, reusable patterns, delivery controls, and production-support practices.
+- Strong technical and architectural judgment concerning the application of Snowflake capabilities within a broader enterprise data environment.
+- Strong communication skills, including the ability to explain complex technical issues, architectural decisions, tradeoffs, risks, costs, and investment needs in clear business terms.
+- Ability to manage multiple complex initiatives and shifting priorities across modernization, operations, technical debt, regulatory delivery, and business demand.
+- Ability to manage multiple priorities, balance strategic initiatives with operational responsibilities, and deliver results in a complex environment.
+- Strong collaboration and relationship-building skills across business and technology teams.
+
+Knowledge
+
+- Advanced knowledge of Snowflake architecture and capabilities, including data ingestion, transformation, modeling, governed data sharing, security, workload management, performance optimization, monitoring, automation, interoperability, and cost-aware design.
+- Strong understanding of modern cloud and hybrid data architectures, including centralized, distributed, virtual, federated, shared, and API-enabled approaches.
+- Modern data integration approaches, including batch, incremental, change data capture, API-based, file-based, streaming, event-driven, virtual, federated, and governed data-sharing patterns.
+- Strong understanding of automated testing, source control, CI/CD process, environment and release management.
+- Knowledge of healthcare payer data, healthcare data standards, and enterprise SaaS integrations preferred.
+- Knowledge of WhereScape or comparable data automation and data engineering frameworks is preferred.
+
+Experience
+
+- Seven (7) or more years of progressive experience in data engineering, data integration, data warehousing, or enterprise data platform delivery.
+- Three (3) or more years of experience leading technical teams, including coaching, performance management, and delivery accountability.
+- Demonstrated experience designing, implementing, and operating production data solutions on Snowflake and applying Snowflake capabilities beyond basic data storage, SQL development, and traditional warehouse workloads.
+- Experience establishing engineering standards, automated delivery practices, data quality controls, monitoring, and production reliability.
+- Experience in a healthcare payer, insurance, or other regulated data environment is preferred.
+
+Education, Certification, and Licenses
+
+- Bachelor’s degree in Computer Science, Software Engineering, Information Systems, Data Engineering, or a related field, or equivalent relevant professional experience.
+- Relevant Snowflake technical certification is strongly preferred.
+- Relevant cloud, data engineering, architecture, security, or DevOps certification is preferred.
+
+Work Environment
+
+- This position operates in a professional office and remote-work environment and routinely uses standard office and computer equipment. The role requires regular interaction with employees, leaders, business stakeholders, vendors, and technology partners through in-person and virtual collaboration.
+
+Physical Demands
+
+- The physical demands described are representative of those required to perform the essential functions of the position. The role generally requires the ability to remain in a stationary position, operate a computer and other office equipment, and communicate effectively with employees and business partners. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.
+
+Other
+
+- May be required to provide leadership or escalation support outside standard business hours for significant production incidents, releases, or business-critical data delivery issues.
+- Completes other responsibilities and assignments as directed.
+
+## About Us
+
+We recognize that work is a part of life, not separate from it, and foster a flexible environment where your health and wellbeing are prioritized. At Capital you will work alongside a caring team of supportive colleagues, and be encouraged to volunteer in your community.  We value your professional and personal growth by investing heavily in training and continuing education, so you have the tools to do your best as you develop your career.     And by doing your best, you’ll help us live our mission of improving the health and well-being of our members and the communities in which they live.",ok,2026-10-22 21:43 UTC
+5804332,Spring 2027 Intern - Technology Research & Data Engineering Intern,Noblis,https://dailyremote.com/remote-job/spring-2027-intern-technology-research-data-engineering-intern-5804332,https://dailyremote.com/apply/5804332?nonce=6df20f90751ae330,$23 - $38 per hour,"Internship, Part Time",United States,0-2 yrs,Others,Yesterday,"python, security, medical, spring, agile, communication, software-engineering, data-engineering, documentation, scripting","Research and integrate open-source datasets by developing and maintaining ETL pipelines, assessing data quality, and documenting source characteristics. Support platform software development, testing, code reviews, CI/CD workflows, and team collaboration in an agile environment.","Responsibilities
+
+This is for a SPRING internship begining in January 2027. Expected hours are 10-20 hours a week. The internship will run until April 2027.
+
+Noblis is seeking a motivated intern to support a technology scouting and risk assessment platform project that helps U.S. government decision makers identify, monitor, and evaluate emerging technologies with national security implications. The platform integrates open-source data from academic research, global news, patents, government funding sources, and other publicly available repositories, then applies advanced analytics, including machine learning, natural language processing, and structured analytic techniques, to surface insights and assess technology risk. The intern will join a small, high-impact engineering team working in an agile environment to expand the platform's data coverage and enhance its software capabilities.
+
+Job Responsibilities
+
+Data Discovery, Integration and Pipeline Development
+
+- Research, identify, and evaluate new open-source datasets relevant to technology scouting and national security analysis
+- Develop and maintain ETL (Extract, Transform, Load) pipelines to ingest data across multiple formats including structured data, documents (Word, Excel, PDF), and streaming sources
+- Assess data quality, relevance, and coverage gaps to prioritize new data source integration
+- Document data source characteristics, schemas, licensing, and access methods
+- Support data normalization and transformation to align new sources with existing platform taxonomies
+
+Software Development Support
+
+- Contribute to platform feature development, bug fixes, and enhancements using modern software engineering practices
+- Support front-end or back-end development tasks as assigned, working within a service-oriented architecture
+- Participate in code reviews, testing, and CI/CD workflows
+- Assist with UI/UX improvements and data visualization features as needed
+
+General
+
+- Collaborate with the engineering team during sprint planning, stand-ups, and retrospectives
+- Maintain clear documentation of work completed, approaches taken, and lessons learned
+- Communicate progress, blockers, and findings proactively to the project lead
+
+Required Qualifications
+
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, Data Science, Data Engineering, Information Science, or a related technical field with a 3.3 GPA.
+- U.S. citizenship required
+- Minimum 1 year of academic or professional experience in data engineering, software development, or a related area (coursework and academic projects count)
+- Demonstrated experience or coursework in data engineering concepts, including ETL processes, data wrangling, and working with diverse data formats (JSON, CSV, XML, APIs)
+- Working knowledge of Python or another scripting language, with some exposure to data processing libraries (e.g., Pandas, BeautifulSoup, Scrapy, or similar)
+- Basic understanding of relational databases and SQL
+- Strong research skills with the ability to independently discover, evaluate, and document new data sources
+- Effective written and verbal communication skills
+- Self-starter who can work independently with minimal supervision in a part-time capacity
+
+Desired Qualifications
+
+- Experience with web scraping, API integration, or automated data collection techniques
+- Familiarity with containerized environments (Docker, Kubernetes)
+- Exposure to front-end (React, JavaScript) or back-end (Java, Node.js, Python/Flask/FastAPI) development
+- Experience with version control systems (Git) and CI/CD pipelines
+- Familiarity with natural language processing (NLP) concepts or large language models (LLMs)
+- Interest in national security, intelligence analysis, or emerging technology policy
+- Experience working with large-scale or streaming data sources (e.g., news feeds, academic databases, patent repositories)
+- Ability to obtain a security clearance is preferred but not required
+
+Overview
+
+Overview
+
+Noblis and our wholly owned subsidiaries, Noblis ESI and Noblis MSD, take on some of the nation’s toughest challenges, delivering advanced solutions to our customers’ most critical missions. We bring together leading scientific, engineering, and management expertise in a culture grounded in objectivity and collaboration, ensuring our work creates lasting impact across federal missions.
+
+We work with a broad range of government agencies in the defense, intelligence, and federal civilian sectors. Learn more and find opportunities at [careers.noblis.org](https://careers.noblis.org/about-noblis/)
+
+Why Work at Noblis
+
+At Noblis, we share a passion for excellence and innovation, and we create an environment where people can do meaningful work while maintaining the balance that keeps them energized and fulfilled. We seek out individuals with a natural curiosity and desire to collaborate and learn. We believe our people are our greatest strength, and we consistently seek exceptionally skilled, mission‑driven professionals who care deeply about doing work that enriches lives and makes our nation safer.
+
+Noblis has earned numerous [workplace awards](https://noblis.org/who-we-are/awards/) for our culture, our commitment to employee well‑being, and our dedication to meaningful, impactful work. We also maintain a drug‑free workplace.
+
+_Remote/hybrid status is subject to change based on Noblis and/or government requirements._
+
+Commitment to Non-Discrimination
+
+All qualified applicants will receive consideration for employment without regard to race, color, ethnicity, sex, age, national origin, religion, physical or mental disability, pregnancy/childbirth and related medical conditions, veteran or military status, or any other characteristics protected by applicable federal, state, or local law.
+
+If reasonable accommodation is needed to participate in the job application or interview process, to perform essential job functions, and/or to receive other benefits and privileges of employment, please [contact us](https://noblis.org/contact).
+
+[EEO is the Law](https://www.dol.gov/general/topic/discrimination)  \|  [E-Verify](https://assets.cms.talentplatform.us/zhu9bbm0ym8duz1a5mj8osb7/attachments/iawiyhl3wfqccbsgnpticdz3-federal-e-verify-participation-poster-eng-and-sp-9-11-2024.pdf)  \|  [Right to Work](https://www.justice.gov/crt/case-document/file/1133936/download)
+
+Total Rewards
+
+At Noblis we recognize and reward your contributions, provide you with growth opportunities, and support your total well-being. Our offerings include health, life, disability, financial, and retirement benefits, as well as paid leave, professional development, tuition assistance, and work-life programs. Our award programs acknowledge employees for exceptional performance and superior demonstration of our service standards. Full-time and part-time employees working at least 20 hours a week on a regular basis are eligible to participate in our benefit programs. Other offerings may be provided for employees not within this category. We encourage you to learn more about our total benefits by visiting the [Benefits](https://careers.noblis.org/benefits/) page on our [Careers](https://careers.noblis.org/) site.
+
+Compensation at Noblis is determined by various factors, including but not limited to, the combination of education, certifications, knowledge, skills, competencies, and experience, internal and external equity, location, clearance level, as well as contract-specific affordability, organizational requirements and applicable employment laws. The projected compensation range for this position is based on full time status. For part time or on-call staff, compensation is proportionately adjusted based on hours worked. While monetary compensation is important, it's just one component of Noblis’ total compensation package.
+
+Posted Salary Range
+
+USD $23.00 - USD $38.00 /Hr.",ok,2026-10-22 21:44 UTC
+5803877,"Manager, Data Engineering",Association of American Medical Colleges,https://dailyremote.com/remote-job/manager-data-engineering-5803877,https://dailyremote.com/apply/5803877?nonce=280b2e170fb07eef,$154K - $181K per year,Full Time,United States,5-10 yrs,Others,Yesterday,"salesforce, creative, medical, crm, communication, leadership, data-engineering, talent-acquisition","The manager leads teams responsible for designing, building, and maintaining enterprise data platforms and the Salesforce-based association management system. They oversee project delivery, establish technical standards, and collaborate with stakeholders to ensure system scalability and operational stability.","# Who We Are:
+
+The Association of American Medical Colleges is a not-for-profit association dedicated to transforming health care by supporting the entire spectrum of medical education, medical research, and patient care conducted by our member institutions. We are dedicated to the communities we serve and steadfast in our goal to improve the health of all.
+
+At the AAMC, we are committed to supporting our employees with a comprehensive and competitive benefits package designed to promote well-being, professionaldevelopment, and work-life balance.
+
+- Hybrid Work – Primarily remote roles with the ability to work across the U.S.
+
+- Comprehensive Health & Wellness – Medical, dental, and vision coverage; wellness programs; and fitness reimbursement
+
+- Generous Time Away – Paid time off, holidays, personal days, sick leave, paid parental leave and short‑ and long‑term disability benefits.
+
+- Retirement & Financial Well-Being – 403(b) retirement plan with generous employer contributions and financial planning resources
+
+- Family & Care Support – Backup care for children, elders, and pets, plus resources for families with specialized needs
+- Learning & Purpose: Tuition reimbursement, professional learning and development opportunities and the chance to advance a meaningful mission.
+
+Additional information can be found on our [website](https://www.aamc.org/about-us/aamc-jobs/aamc-benefits).
+
+# Why us, why now?
+
+The incumbent in the role is responsible for leading the teams that design, build, and maintain enterprise data platforms and the association management system (AMS) built on Salesforce. This role ensures data pipelines, integrations, and platforms are scalable, reliable, and secure while also overseeing the operation, configuration, and optimization of the organization’s Salesforce-based AMS. The Manager provides leadership, establishes best practices, and partners with business and technology stakeholders to ensure both enterprise data and CRM systems effectively support organizational goals.
+
+# How How will you make an impact?
+
+Team Leadership and Management:
+
+- Supervise, coach, and develop data engineering and Salesforce AMS team members.
+- Provide performance feedback, career development support, and mentoring.
+
+Data Platform Oversight:
+
+- Direct the design, development, and maintenance of enterprise data pipelines, data lakes, and warehouses.
+- Ensure platforms are scalable, reliable, and optimized for analytics and reporting.
+
+Salesforce AMS Oversight:
+
+- Manage the Salesforce AMS platform, including configuration, integration, and ongoing optimization.
+- Ensure business processes are effectively supported and system changes are well-governed.
+
+Project and Delivery Management:
+
+- Oversee planning and execution of projects across data engineering and Salesforce AMS teams.
+- Ensure deliverables are on time, within scope, and aligned with business needs.
+
+Standards and Best Practices:
+
+- Define and enforce standards for data engineering and Salesforce development, including coding practices, security, and governance.
+- Promote automation, efficiency, and quality across both functions.
+
+Collaboration and Stakeholder Engagement:
+
+- Partner with business units, analytics teams, and functional stakeholders to ensure data and CRM systems meet organizational needs.
+- Translate requirements into technical solutions.
+
+Operations and Incident Management:
+
+- Ensure operational stability of both enterprise data platforms and Salesforce AMS.
+- Oversee incident resolution, root cause analysis, and continuous improvement.
+
+# What you will bring to the role:
+
+Required Qualifications:
+
+- Bachelor's degree in Computer Science, Information Technology, or related field.
+- Master's degree in a related field - preferred.
+- 8-10 years of releated work experience.
+- 1-3 years of supervisory experience.
+- Experience leading a team of software developers preferrable - Data Engineering team.
+- Extensive experience with AWS, Glue, DMS, SaaS-based ETL tools, Oracle, Postgres, S3, Athena, Dynamo, SDLC etc.
+- Excellent problem-solving skills and creative thinking abilities
+- Ability to manage multiple projects and priorities simultaneously
+- Ability to work independently and as part of a team
+- Excellent written and verbal communication skills
+- Strong attention to detail and commitment to data quality and accuracy
+
+Preferred Experience:
+
+- Leading enterprise-scale data and CRM initiatives across hybrid or multi-cloud environments.
+
+Remote Work Eligibility
+
+This is a remote-eligible position at AAMC. Candidates may reside anywhere within the contiguous United States, excluding California, Massachusetts, New York, and Oregon.
+
+Compensation Grade Range
+
+$154,275.00-$181,500.00
+
+Multiple factors are taken into consideration to arrive at the final hourly rate/annual salary to be offered to the selected candidate. Factors may include, but are not limited to, the scope and responsibilities of the role, the selected candidate’s work experience, education and training, as well as internal equity, market, and business considerations.
+
+If a bachelor’s degree is required, related work experience may be substituted in some positions.  One year of college course work at an accredited institution is equivalent to one year of related work experience.
+
+The AAMC is an Equal Opportunity Employer. The AAMC is committed to an Equal Employment Opportunity policy in recruitment, hiring, career advancement, and all other personnel practices. The AAMC will not discriminate on the basis of race, color, sex, national origin, religion, age, marital status, personal appearance, sexual orientation, gender identity or expression, family responsibilities, matriculation, political affiliation, genetic information, disability, past or current military service, or any other legally protected characteristic. The AAMC is committed to the full inclusion of all qualified individuals. As part of this commitment, the AAMC will ensure that people with disabilities are provided reasonable accommodations. If reasonable accommodation is needed to participate in the job application or interview process, perform essential job functions, and/or receive other benefits and privileges of employment, please [contact the talent acquisition team](mailto:recruitment@aamc.org) .
+
+Please attach a resume as part of the application process. It is important that files DO NOT include periods ( . ) within the file name.
+
+BROWSER REQUIREMENTS: Applications must be submitted using Chrome, Mozilla Firefox, Safari, or Microsoft Edge.",ok,2026-10-22 21:44 UTC
+5803677,Manager of Data Engineering,Northrop Grumman,https://dailyremote.com/remote-job/manager-of-data-engineering-5803677,https://dailyremote.com/apply/5803677?nonce=bd254566ca7e700f,$133K - $199K per year,Full Time,United States,5-10 yrs,Others,Yesterday,"insurance, cloud, architecture, communication, data-engineering, mentoring, history","Lead and develop a team of data and software engineers, setting technical standards and maintaining a data engineering roadmap aligned with business objectives and enterprise data strategy. Oversee reliable, scalable, high-performance Databricks data pipeline delivery and collaborate with leaders across business functions.","RELOCATION ASSISTANCE: No relocation assistance available
+
+CLEARANCE REQUIRED FOR START: No
+
+CLEARANCE TYPE: Secret
+
+TRAVEL: Yes, 10% of the Time
+
+## Description
+
+At Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history - from the first flight across the Atlantic Ocean, to stealth bombers, to landing on the moon. We look for people who have bold new ideas, courage and a pioneering spirit to join forces to invent the future, and have fun along the way. Our culture thrives on intellectual curiosity, cognitive diversity and bringing your whole self to work — and we have an insatiable drive to do what others think is impossible. Our employees are not only part of history, they're making history.
+
+Insights & Intelligence (i2) is reimagining decision making at Northrop Grumman. As part of our Chief Information & Digital Office (CIDO), i2 works with all enterprise domains and businesses to drive our data, analytics & AI transformation.
+
+As a leader, you will manage a team of data and software engineers working across critical domains of the business. In this role, you will directly influence how we build our Databricks enterprise lakehouse and our culture of engineering excellence that enables the team to develop reliable data systems. You will have the opportunity to grow as an engineering leader, influencing the technical architecture and code standards on the team along with the technical roadmap and its execution.
+
+This position is supporting the corporate office in Falls Church, VA. We will consider virtual telecommuter candidates.
+
+Key responsibilities:
+
+- Define and maintain a data engineering roadmap; align technical priorities with business objectives and the Northrop Grumman data strategy.
+- Build and lead a high-performing, collaborative team; mentoring engineers on design patterns, code quality, data architecture, and career development.
+- Champion clean, modular architecture and enforce engineering best practices.
+- Drive end-to-end delivery of data pipelines in Databricks, ensuring reliability, scalability, and performance while meeting roadmap milestones.
+- Collaborate with leaders and teams across various functions, including business management, business development, facilities, human resources, supply chain, and manufacturing.
+
+Basic Qualifications:
+
+- Must have, at minimum, a Bachelor’s degree in Computer Science, Engineering, or a related field.
+- Must have a minimum of 8 years of experience in software or data engineering with a relevant Bachelors Degree OR 6 years of experience in software or data engineering with a relevant Masters Degree.
+- Must have a minimum of 2 years of experience in people management leading engineering teams.
+- Proficiency with Databricks (or comparable modern data lakehouse platforms), cloud services (AWS), and data pipelines.
+- Demonstrated skill in managing technical teams, process excellence, and meeting roadmap deliverables.
+- Strong communication and stakeholder management skills, with a demonstrated ability to influence both technical and executive audiences.
+
+Preferred Qualifications:
+
+- Master’s degree or PhD in Engineering or related field.
+- Deep domain expertise in one or more of the following areas: Finance, Supply Chain, Human Resources, or Manufacturing
+
+Primary Level Salary Range: $133,200.00 - $199,800.00
+
+The above salary range represents a general guideline; however, Northrop Grumman considers a number of factors when determining base salary offers such as the scope and responsibilities of the position and the candidate's experience, education, skills and current market conditions.
+
+Depending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay. Annual bonuses are designed to reward individual contributions as well as allow employees to share in company results. Employees in Vice President or Director positions may be eligible for Long Term Incentives. In addition, Northrop Grumman provides a variety of benefits including health insurance coverage, life and disability insurance, savings plan, Company paid holidays and paid time off (PTO) for vacation and/or personal business.
+
+The application period for the job is estimated to be 20 days from the job posting date. However, this timeline may be shortened or extended depending on business needs and the availability of qualified candidates.
+
+Northrop Grumman is an Equal Opportunity Employer, making decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, age, veteran status, disability, or any other protected class. For our complete EEO and pay transparency statement, please visit http://www.northropgrumman.com/EEO. U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.",ok,2026-10-22 21:44 UTC
+5801170,Data Engineering Manager – GCP Cloud @ USA Remote Work,Naveera Technology LLC,https://dailyremote.com/remote-job/data-engineering-manager-gcp-cloud-usa-remote-work-5801170,https://dailyremote.com/apply/5801170?nonce=4cbbe144e35382ee,$120K - $160K per year,Full Time,United States,10+ yrs,"Software Development, Engineering Manager",Yesterday,"aws, sql, artificial-intelligence, cloud, security, architecture, data-science, agile, team-management, communication, terraform, science, testing, data-engineering, mentoring, devops, compliance, engineering-manager",Lead the end-to-end migration of enterprise data platforms from AWS to GCP while architecting scalable data solutions. Manage and mentor a team of data engineers while acting as the primary technical point of contact for stakeholders.,"Greetings of the day!!
+
+I am Arumugam Veera, reaching out to you regarding an exciting career opportunity with Naveera Technology LLC. I would be happy to connect and discuss the opportunity further. You can also connect with me on _LinkedIn:https://www.linkedin.com/in/arumugamv/_
+
+About Naveera Technology LLC
+
+Naveera Technology LLC is a trusted global engineering partner delivering Data Engineering, Generative AI, Application Development, and IT Infrastructure solutions. With over 15 years of experience in IT services and consulting, we help organizations transform raw data into actionable business value.
+
+With a team of 100+ employees and successful delivery of 3+ global projects, Naveera serves clients across multiple industries and geographies through agile delivery models and proven engineering practices.
+
+From Digital Health and Financial Services to E-Commerce and Technology, we support a diverse client base and back every engagement with proven frameworks, low-attrition teams, and scalable global delivery capabilities. At Naveera, we empower organizations to turn challenges into opportunities, data into insights, and innovative ideas into enterprise-grade platforms.
+
+Specialties
+
+Data Engineering & Modern Data Stack, Generative AI Solutions & Model Deployment, Application Development (Web, Mobile & Enterprise), Artificial Intelligence (Predictive, Conversational, Computer Vision), IT Infrastructure Services (Cloud & On-Prem), Security, DR, Cloud Transformation & Microservices, DevOps, API & Systems Integration, Extended Technology Teams & Dedicated Delivery, Real-Time Streaming & Analytics, and BI & Data Warehousing
+
+Job Title: Data Engineering Manager – GCP Cloud
+
+Experience: 15+ Years
+
+Location: Remote (USA)
+
+Primary Focus: GCP Data Engineering \|AWS → GCP Migration \| Data Engineering \| Data Architecture \| Engineering Leadership
+
+Position Overview
+
+We are looking for an experienced Engineering Manager with strong hands-on expertise in AWS and GCP Data Engineering to lead a large-scale AWS-to-GCP data platform migration.
+
+The ideal candidate will have strong experience designing enterprise data platforms on AWS and migrating them to Google Cloud Platform (GCP). The role requires a combination of technical architecture, hands-on engineering, migration leadership, team management and stakeholder management.
+
+The candidate should have strong hands-on experience with AWS services such as S3, Glue, Redshift, Athena, Step Functions and AWS DMS, along with strong GCP expertise across BigQuery, Dataflow, Pub/Sub, Cloud Storage and Cloud Composer.
+
+The Engineering Manager will work closely with US-based stakeholders, architects, engineers, DevOps teams, Data Science and BI teams to define the migration strategy and ensure successful execution.
+
+Key Responsibilities
+
+1\. GCP Data Platform Architecture
+
+Architect and implement scalable enterprise data platforms on GCP.
+
+Design Data Lake and Lakehouse architectures using GCS and BigQuery.
+
+Define Bronze, Silver and Gold/Atomic data layers.
+
+Design scalable data ingestion, transformation and consumption frameworks.
+
+Establish standards for data modeling, partitioning, clustering and storage.
+
+Design multi-tenant and multi-location data architectures.
+
+Define schema-on-read and schema-on-write strategies.
+
+2\. AWS to GCP Migration Leadership
+
+Lead the end-to-end migration of enterprise data platforms from AWS to GCP.
+
+Assess existing AWS architecture, data pipelines, workloads, dependencies and operational processes.
+
+Define the target-state GCP architecture and migration roadmap.
+
+Develop migration strategies for:
+
+Amazon S3 → Google Cloud Storage
+
+Amazon Redshift → BigQuery
+
+AWS Glue → Dataflow / Dataproc / BigQuery
+
+AWS Step Functions → Cloud Composer / Workflows
+
+AWS DMS → GCP-native CDC solutions
+
+Amazon Athena → BigQuery
+
+Identify opportunities to modernize AWS workloads rather than performing a simple lift-and-shift migration.
+
+Define migration phases, technical dependencies, risks and rollback strategies.
+
+Lead architecture reviews and technical design discussions.
+
+3\. AWS Data Platform Expertise
+
+Analyze and optimize existing AWS data platforms before migration.
+
+Work with:
+
+Amazon S3
+
+AWS Glue
+
+AWS Glue Data Quality
+
+Amazon Redshift / Redshift Serverless
+
+Amazon Athena
+
+AWS Step Functions
+
+AWS DMS
+
+AWS Lake Formation
+
+Understand existing AWS ETL/ELT pipelines, data models, workloads and dependencies.
+
+Identify equivalent or improved GCP services for each AWS workload.
+
+Prepare technical mapping and migration plans between AWS and GCP services.
+
+4\. GCP Streaming & Real-Time Data Engineering
+
+Architect real-time data pipelines using:
+
+Google Pub/Sub
+
+Dataflow / Apache Beam
+
+BigQuery
+
+Cloud Storage
+
+Design high-volume event ingestion, enrichment and transformation pipelines.
+
+Implement event-driven architectures and appropriate delivery guarantees.
+
+Optimize streaming pipelines for latency, throughput and scalability.
+
+Design BigQuery streaming ingestion patterns.
+
+Implement monitoring, logging and alerting for real-time workloads.
+
+5\. ETL / ELT & Data Processing
+
+Design and implement scalable batch and real-time ETL/ELT pipelines.
+
+Migrate AWS Glue-based pipelines to appropriate GCP services.
+
+Develop transformation frameworks using:
+
+Python
+
+PySpark
+
+SQL
+
+Dataflow / Apache Beam
+
+BigQuery
+
+dbt
+
+Design CDC pipelines and real-time ingestion patterns.
+
+Build orchestration workflows using Cloud Composer / Airflow.
+
+Optimize data processing jobs and query performance.
+
+6\. Data Modeling & BigQuery
+
+Design enterprise data models for analytics and reporting.
+
+Define dimensional, normalized and denormalized data models.
+
+Develop multi-tenant data structures.
+
+Design BigQuery partitioning and clustering strategies.
+
+Optimize BigQuery SQL and query execution.
+
+Design data models supporting both real-time and batch workloads.
+
+Work closely with BI and Analytics teams to create scalable consumption models.
+
+7\. Data Governance, Security & Quality
+
+Establish data governance and data quality standards across the GCP platform.
+
+Implement automated data quality checks and validation frameworks.
+
+Establish data lineage, metadata and ownership standards.
+
+Ensure appropriate security controls across all GCP data layers.
+
+Implement:
+
+IAM
+
+Least-privilege access
+
+Encryption
+
+Service accounts
+
+Network security
+
+Data access policies
+
+Work with governance and security teams to ensure compliance requirements are met.
+
+Experience with Dataplex, Data Catalog and data lineage is preferred.
+
+8\. DevOps, Infrastructure & Automation
+
+Lead infrastructure automation using Terraform.
+
+Build repeatable and secure GCP infrastructure deployments.
+
+Implement CI/CD pipelines for data engineering workloads.
+
+Work with:
+
+Terraform
+
+Git
+
+GitHub
+
+Cloud Build
+
+CI/CD pipelines
+
+Automate data pipeline deployment, testing and infrastructure provisioning.
+
+Establish Dev, QA, UAT and Production deployment standards.
+
+9\. Performance & Cost Optimization
+
+Lead performance optimization initiatives across GCP data workloads.
+
+Optimize:
+
+BigQuery query performance
+
+Partitioning and clustering
+
+Dataflow pipelines
+
+Spark workloads
+
+Cloud Storage
+
+Streaming workloads
+
+Analyze AWS workloads and determine the most cost-effective GCP architecture.
+
+Develop cloud FinOps and cost optimization strategies.
+
+Establish performance benchmarks and SLAs for critical workloads.
+
+10\. Engineering Management & Team Leadership
+
+Lead and mentor a team of Data Engineers, Senior Data Engineers and Technical Leads.
+
+Provide technical direction and establish engineering standards.
+
+Conduct architecture and code reviews.
+
+Define technical roadmaps and engineering priorities.
+
+Break complex migration requirements into actionable deliverables.
+
+Track engineering progress, risks, dependencies and delivery milestones.
+
+Promote best practices around coding, testing, CI/CD, security and documentation.
+
+Mentor engineers on GCP, data architecture and modern data engineering practices.
+
+11\. Stakeholder & Client Management
+
+Act as the primary technical point of contact for US-based stakeholders.
+
+Work closely with Business, Product, Data Science, BI and DevOps teams.
+
+Translate business requirements into scalable technical solutions.
+
+Present architecture decisions, migration strategies and technical roadmaps.
+
+Communicate technical risks, dependencies, timelines and trade-offs.
+
+Collaborate with business teams to define operational and analytical KPIs.
+
+## Tasks
+
+- 15+ years of experience in Data Engineering, Data Architecture or Cloud Engineering.
+
+- 5+ years of hands-on GCP Data Engineering experience.
+
+- 3+ Yrs Proven experience working on AWS-to-GCP migration projects.
+
+- Strong experience designing enterprise Data Lake / Lakehouse platforms.
+
+- Experience migrating AWS data workloads to GCP.
+
+- Strong knowledge of AWS and GCP service mapping and cloud migration patterns.
+
+- Expert-level SQL and strong Python/PySpark skills.
+
+- Strong data modeling and data warehousing experience.
+
+- Experience with Terraform and CI/CD.
+
+- Experience managing and mentoring data engineering teams.
+
+- Strong communication skills with experience working with US-based stakeholders
+
+## Requirements
+
+Required Technical Skills & Cloud Platforms
+
+AWS – Strong Existing Platform Experience
+
+Amazon S3
+
+AWS Glue
+
+AWS Glue Data Quality
+
+Amazon Redshift / Redshift Serverless
+
+Amazon Athena
+
+AWS Step Functions
+
+AWS DMS
+
+AWS Lake Formation
+
+IAM
+
+GCP – Target Platform
+
+BigQuery
+
+Google Cloud Storage
+
+Pub/Sub
+
+Dataflow / Apache Beam
+
+Cloud Composer / Airflow
+
+Dataproc / Spark
+
+Cloud Monitoring
+
+Cloud Logging
+
+Dataplex / Data Catalog
+
+Data Engineering
+
+Advanced Python
+
+Expert-level SQL
+
+Strong PySpark / Apache Spark
+
+ETL/ELT
+
+CDC
+
+Batch and streaming data processing
+
+Event-driven architecture
+
+Data pipeline optimization
+
+## Benefits
+
+- Lead large-scale AWS-to-GCP cloud transformation initiatives.
+
+- Work on enterprise Data Lakehouse and analytics modernization projects.
+
+- Flexible remote work environment.
+
+- Exposure to global enterprise customers.
+
+- Collaborative, innovation-driven engineering culture.
+
+- Continuous learning and certification opportunities",ok,2026-10-22 21:44 UTC
+5801085,Consultant – Data Engineering,Vrinda International,https://dailyremote.com/remote-job/consultant-data-engineering-5801085,https://dailyremote.com/apply/5801085?nonce=d36a2b63878195a0,1500K - 2000K per year,Full Time,India,10+ yrs,Others,Yesterday,"git, sharepoint, sql, azure, power-bi, reporting, data-management, data-engineering, devops","The consultant will architect and implement scalable data pipelines and ETL processes using the Microsoft ecosystem. They are also responsible for managing data governance, BI reporting, and automation workflows to support business objectives.","# Consultant – Data Engineering
+
+## Summary
+
+We are seeking an experienced Consultant – Data Engineering professional with over eight years of industry tenure to lead critical data initiatives within our IT Services division. In this pivotal role, the successful candidate will architect, implement, and optimize robust data solutions leveraging the Microsoft ecosystem. The position demands a strategic thinker capable of bridging complex technical requirements with business objectives, ensuring seamless data flow, high-quality reporting, and efficient release management across the organization. This role is essential for driving data maturity and supporting advanced analytics through the effective utilization of Azure DevOps, Power BI, and ServiceNow platforms.
+
+## Responsibilities
+
+- Design and develop scalable data pipelines and ETL processes using advanced T-SQL and SQL Server technologies.
+
+- Manage the full software development lifecycle for data solutions, utilizing Azure DevOps for version control, CI/CD pipelines, and release management.
+
+- Create interactive dashboards and comprehensive reports using Power BI to enable data-driven decision-making for stakeholders.
+
+- Implement and maintain automation workflows using Power Automate and SharePoint to streamline business processes.
+
+- Oversee data governance and master data management (MDM) initiatives using Microsoft MDS to ensure data integrity and consistency.
+
+- Administer and enhance ServiceNow ITSM reporting modules to improve service delivery and operational visibility.
+
+- Apply ITIL best practices to manage IT service improvements, incident resolution, and change management protocols.
+
+- Collaborate with cross-functional teams to integrate Git-based version control strategies into development workflows.
+
+### Requirements
+
+Requirements:
+
+- Minimum of 8 years of professional experience in data engineering, IT services, or a related technical domain.
+
+- Proven expertise in Azure DevOps, including experience with Git repositories, build pipelines, and deployment strategies.
+
+- Advanced proficiency in SQL Server and T-SQL for complex query writing, optimization, and data manipulation.
+
+- Strong capability in developing business intelligence solutions using Power BI and integrating them with enterprise data sources.
+
+- Hands-on experience with Microsoft Power Automate and SharePoint for workflow automation and content management.
+
+- Solid understanding of Release Management principles and tools to ensure smooth software deployments.
+
+- Familiarity with ITIL frameworks and experience in applying these standards to IT service management.
+
+- Competence in utilizing Microsoft MDS for master data management and governance.
+
+- Experience with ServiceNow ITSM, specifically in configuring and analyzing reporting features.",ok,2026-10-22 21:44 UTC
+5797483,"Director, Data Engineering (Remote or Hybrid)",Healogics,https://dailyremote.com/remote-job/director-data-engineering-remote-or-hybrid-5797483,https://dailyremote.com/apply/5797483?nonce=664984f06efaac38,$163K - $190K per year,Full Time,United States,10+ yrs,Others,2 Days Ago,"sql, architecture, workday, communication, reporting, operations, leadership, data-engineering, organization","The Director of Data Engineering will lead the team in architecting, modernizing, and maintaining enterprise data platforms, including the transition to Databricks. This role involves translating business needs into scalable data solutions while ensuring data quality, security, and operational reliability.","The rewards at Healogics are immense, starting with the important work we do to change patients’ lives. We also understand that meaningful work is hard work, and we are committed to supporting and compensating our employees for the tremendous service they provide.
+
+Think you are a great fit? Learn more about this role here:
+
+Healogics is the largest provider of advanced wound care services in the United States, treating more than 300,000 chronic wound patients annually across over 600 sites. With an aging society, obesity and diabetes on the rise, and an increase in surgical procedures, the number of patients with non-healing wounds who would benefit from expert care is growing. The company is focused on extending its differentiated, quality outcomes to as many patients as possible through its outpatient clinic partnerships.
+
+The Director, Data Engineering is responsible for the architecture, engineering, reliability, and continued modernization of Healogics’ enterprise data platforms. This leader will ensure the organization’s current data warehouse and reporting environment remains stable, well understood, and effectively supported while advancing the company’s transition to a modern data and analytics platform built on Databricks.
+
+This is a hands-on leadership role requiring deep experience in data engineering, data architecture, data modeling, and enterprise analytics platforms. The Director must be capable of evaluating existing data pipelines, SQL Server databases, data warehouse structures, OLAP cubes, and SSRS reporting processes, while also designing and implementing scalable solutions using Databricks and modern data engineering practices.
+
+The Director will lead the Data Engineering team and work closely with executives, business leaders, analytics teams, application teams, vendors, and other technology functions. This leader will translate business needs into practical data solutions, establish priorities based on business value, and communicate technical concepts, risks, dependencies, and recommendations in clear business terms.
+
+All Healogics employees must perform their job responsibilities according to all Healogics policies, hospital policies, applicable accrediting organization standards, federal and state regulations, and Centers for Medicare and Medicaid Services guidelines.
+
+## Essential Functions/Responsibilities:
+
+- Lead the Data Engineering team, including technical direction, coaching, prioritization, performance management, and accountability for delivery.
+
+- Own the architecture, reliability, performance, and ongoing support of Healogics’ enterprise data warehouse and data platforms.
+
+- Maintain a strong understanding of the current data environment, including SQL Server, ETL processes, OLAP cubes, SSRS reporting, integrations, and critical business dependencies.
+
+- In collaboration with an implementation partner, lead the design and implementation of the Databricks platform, transition it into production, and assume ongoing ownership of its architecture, operations, performance, security, governance, reliability, and continued evolution.
+
+- Serve as a hands-on technical leader who can evaluate architecture, review data pipelines and models, troubleshoot complex issues, and guide implementation decisions.
+
+- Design and oversee enterprise data models that provide consistent, reliable, and reusable data for reporting, analytics, artificial intelligence, and operational decision-making.
+
+- Establish and enforce standards for data engineering, architecture, documentation, testing, deployment, monitoring, data quality, security, and production support.
+
+- Partner with executives and business leaders to understand business needs, translate them into practical data solutions, and prioritize work based on business value, risk, dependencies, and team capacity.
+
+- Collaborate with analytics, artificial intelligence, application, integration, cybersecurity, and infrastructure teams to deliver secure, integrated, and well-governed data solutions.
+
+- Manage vendors and implementation partners, ensuring architecture alignment, delivery accountability, documentation, budget management and sustainable internal support.
+
+- Perform other duties as required.
+
+Required Education, Experience and Credentials:
+
+- Bachelor’s degree in computer science, information systems, or a related field; equivalent experience may be considered.
+
+- 10+ years of data engineering, data architecture, or business intelligence experience, including 5+ years in leadership.
+
+- Significant hands-on experience architecting and implementing enterprise data solutions on Databricks.
+
+- Experience supporting and modernizing SQL Server data warehouses, ETL processes, OLAP cubes, and SSRS.
+
+- Experience designing enterprise, dimensional, and analytical data models.
+
+- Healthcare or regulated data experience preferred.
+
+Required Knowledge, Skills and Abilities:
+
+- Databricks experience, including architecture, data engineering, platform design, performance, security, governance, and operations.
+
+- Strong SQL Server and legacy data warehouse knowledge, including the ability to maintain current operations while leading modernization.
+
+- Strong data architecture, data modeling, integration, data quality, and governance capabilities.
+
+- Hands-on technical leadership across data pipelines, models, platform performance, and complex issue resolution.
+
+- Ability to lead and develop technical teams and manage vendors and implementation partners.
+
+- Customer-focused partner who can translate business needs into scalable data solutions.
+
+- Strong executive communication and ability to prioritize work based on business value, risk, dependencies, and capacity.
+
+#LI-RS1
+
+The base salary for this position generally ranges between $163,000-$190,000 annually
+
+This range is an estimate, based on potential employee qualifications: education, experience, geography as well as operational needs and other considerations permitted by law.
+
+If you are a current employee, to submit a job application, you need to apply as an internal candidate in Workday via the “Jobs Hub”.",ok,2026-10-22 21:44 UTC
+5796893,"Associate Director, Data Engineering Lead",Novartis,https://dailyremote.com/remote-job/associate-director-data-engineering-lead-5796893,https://dailyremote.com/apply/5796893?nonce=e2979e035518e142,$152K - $283K per year,Full Time,United States,5-10 yrs,Others,2 Days Ago,"media, architecture, medical, hiring, data-engineering","The Associate Director will define enterprise standards for data engineering and oversee the design of scalable, governed data pipelines. They will also lead the data contract lifecycle and implement observability capabilities to ensure high-quality, compliant data delivery.","Job Description Summary
+
+#LI-Onsite
+
+Location: East Hanover, New Jersey
+
+Novartis is unable to offer relocation support: please only apply if accessible.
+
+Company will not sponsor visas for this position.
+
+The preferred location for this role is East Hanover, New Jersey site but remote work may be possible (there may be some restrictions based on legal entity). Please note that this role would not provide relocation as a result. If associate is remote, all home office expenses and any travel/lodging to specific East Hanover, New Jersey site for periodic live meetings will be at the employee’s expense. The expectation of working hours and travel (domestic and/or international) will be defined by the hiring manager.
+
+Ready to build the foundation that powers trusted, AI-ready data at scale? As Associate Director, Data Engineering, you will play a pivotal role in shaping how enterprise data is engineered, governed, and delivered across Novartis. Working at the intersection of data platforms, governance, and innovation, you will establish the standards, controls, and engineering capabilities that enable reliable, compliant, and high-quality data products. This is an exciting opportunity to influence enterprise-wide data strategy, drive modern DataOps practices, and help accelerate data-driven decision making that ultimately supports better outcomes for patients worldwide.
+
+Job Description
+
+Key Responsibilities
+
+- Define and enforce enterprise standards for data engineering, pipeline reliability, and production controls.
+
+- Design and oversee scalable, governed data pipelines supporting critical business and data domains.
+
+- Lead the enterprise data contract lifecycle, including review, approval, governance, and enforcement.
+
+- Implement data observability capabilities across monitoring, anomaly detection, service levels, and operational alerting.
+
+- Establish controls that ensure critical data elements remain traceable, validated, and protected.
+
+- Develop safeguards that prevent incomplete, inaccurate, or non-compliant data from reaching downstream systems.
+
+- Partner with data modeling teams to align engineering implementation with approved enterprise data models.
+
+- Collaborate across governance, privacy, architecture, and platform teams to enable compliant data delivery.
+
+- Drive automation for deployment, validation, metadata capture, lineage generation, testing, and reporting.
+
+- Monitor operational performance and lead resolution of pipeline, contract, and data reliability issues.
+
+Essential Requirements
+
+- Bachelor’s degree in Computer Science, Information Systems, Data Engineering, Data Management, Engineering, Analytics, or a related field.
+
+- 5+ years of experience in data engineering, data governance, data architecture, data product management, or enterprise data platform delivery.
+
+- Experience designing, building, or governing enterprise data pipelines, data products, data platforms, or data integration capabilities.
+
+- Direct experience with data contracts, schema validation, data pipeline monitoring, data observability, or data product certification.
+
+- Experience working in complex enterprise environments with multiple data producers, consumers, vendors, platforms, and governance stakeholders.
+
+Desirable Requirements
+
+- Advanced degree or relevant cloud, data engineering, data management, or architecture certification.
+
+- Experience supporting regulated, privacy-sensitive, or compliance-driven data environments.
+
+The salary for this position is expected to range between $152,600 - $283,400 per year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors.
+
+Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves.
+
+To learn more about the culture, rewards and benefits we offer our people click [here](https://share.novartis.net/sites/Workvivo/Space%20Assets/Forms/AllItems.aspx?id=%2Fsites%2FWorkvivo%2FSpace%20Assets%2FPeople%20%26%20Organization%2FEmployer%20Value%20Proposition%2FDocuments%2FLooking%20to%20boost%20your%20recruitment%20efforts%20section%2FUS%20Field%20roles%20%26%20HQ%20based%20roles%20template%2Epdf&parent=%2Fsites%2FWorkvivo%2FSpace%20Assets%2FPeople%20%26%20Organization%2FEmployer%20Value%20Proposition%2FDocuments%2FLooking%20to%20boost%20your%20recruitment%20efforts%20section).
+
+EEO Statement:
+
+The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status.
+
+Accessibility and reasonable accommodations
+
+The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or to perform the essential functions of a position, please send an e-mail to us.reasonableaccommodations@novartis.com or call +1(877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message.
+
+Salary Range
+
+$152,600.00 - $283,400.00
+
+Skills Desired
+
+Cross-Functional Collaboration, Customer Engagement, Customer Insights, Data Analytics, Digital Marketing, Market Research, Media Campaigns, Product Marketing, Stakeholder Engagement, Stakeholder Management, Team Leadership, Waterfall Model",ok,2026-10-22 21:44 UTC
+5796881,"Associate Director, Data Engineering Lead",Novartis,https://dailyremote.com/remote-job/associate-director-data-engineering-lead-5796881,https://dailyremote.com/apply/5796881?nonce=97ee3ab5fa69468d,$152K - $283K per year,Full Time,United States,5-10 yrs,Others,2 Days Ago,"media, architecture, medical, hiring, data-engineering","You will define and enforce enterprise standards for data engineering, pipeline reliability, and production controls while overseeing scalable, governed data pipelines. Additionally, you will collaborate across governance, privacy, and architecture teams to drive automation and ensure high-quality, compliant data delivery.","Band
+
+Level 5
+
+Job Description Summary
+
+#LI-Onsite
+
+Location: East Hanover, New Jersey
+
+Novartis is unable to offer relocation support: please only apply if accessible.
+
+Company will not sponsor visas for this position.
+
+The preferred location for this role is East Hanover, New Jersey site but remote work may be possible (there may be some restrictions based on legal entity). Please note that this role would not provide relocation as a result. If associate is remote, all home office expenses and any travel/lodging to specific East Hanover, New Jersey site for periodic live meetings will be at the employee’s expense. The expectation of working hours and travel (domestic and/or international) will be defined by the hiring manager.
+
+Ready to build the foundation that powers trusted, AI-ready data at scale? As Associate Director, Data Engineering, you will play a pivotal role in shaping how enterprise data is engineered, governed, and delivered across Novartis. Working at the intersection of data platforms, governance, and innovation, you will establish the standards, controls, and engineering capabilities that enable reliable, compliant, and high-quality data products. This is an exciting opportunity to influence enterprise-wide data strategy, drive modern DataOps practices, and help accelerate data-driven decision making that ultimately supports better outcomes for patients worldwide.
+
+Job Description
+
+Key Responsibilities
+
+- Define and enforce enterprise standards for data engineering, pipeline reliability, and production controls.
+
+- Design and oversee scalable, governed data pipelines supporting critical business and data domains.
+
+- Lead the enterprise data contract lifecycle, including review, approval, governance, and enforcement.
+
+- Implement data observability capabilities across monitoring, anomaly detection, service levels, and operational alerting.
+
+- Establish controls that ensure critical data elements remain traceable, validated, and protected.
+
+- Develop safeguards that prevent incomplete, inaccurate, or non-compliant data from reaching downstream systems.
+
+- Partner with data modeling teams to align engineering implementation with approved enterprise data models.
+
+- Collaborate across governance, privacy, architecture, and platform teams to enable compliant data delivery.
+
+- Drive automation for deployment, validation, metadata capture, lineage generation, testing, and reporting.
+
+- Monitor operational performance and lead resolution of pipeline, contract, and data reliability issues.
+
+Essential Requirements
+
+- Bachelor’s degree in Computer Science, Information Systems, Data Engineering, Data Management, Engineering, Analytics, or a related field.
+
+- 5+ years of experience in data engineering, data governance, data architecture, data product management, or enterprise data platform delivery.
+
+- Experience designing, building, or governing enterprise data pipelines, data products, data platforms, or data integration capabilities.
+
+- Direct experience with data contracts, schema validation, data pipeline monitoring, data observability, or data product certification.
+
+- Experience working in complex enterprise environments with multiple data producers, consumers, vendors, platforms, and governance stakeholders.
+
+Desirable Requirements
+
+- Advanced degree or relevant cloud, data engineering, data management, or architecture certification.
+
+- Experience supporting regulated, privacy-sensitive, or compliance-driven data environments.
+
+The salary for this position is expected to range between $152,600 - $283,400 per year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors.
+
+Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves.
+
+To learn more about the culture, rewards and benefits we offer our people click [here](https://share.novartis.net/sites/Workvivo/Space%20Assets/Forms/AllItems.aspx?id=%2Fsites%2FWorkvivo%2FSpace%20Assets%2FPeople%20%26%20Organization%2FEmployer%20Value%20Proposition%2FDocuments%2FLooking%20to%20boost%20your%20recruitment%20efforts%20section%2FUS%20Field%20roles%20%26%20HQ%20based%20roles%20template%2Epdf&parent=%2Fsites%2FWorkvivo%2FSpace%20Assets%2FPeople%20%26%20Organization%2FEmployer%20Value%20Proposition%2FDocuments%2FLooking%20to%20boost%20your%20recruitment%20efforts%20section).
+
+EEO Statement:
+
+The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, gender, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status. We strive to create an inclusive workplace that cultivates bold innovation through collaboration and empowers our people to unleash their full potential.
+
+Accessibility and reasonable accommodations
+
+The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or in order to perform the essential functions of a position, please send an e-mail to tas.nacomms@novartis.com call +1 (877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message.
+
+[https://www.novartis.com/careers/careers-research/notice-all-applicants-us-job-openings](https://www.novartis.com/careers/careers-research/notice-all-applicants-us-job-openings)
+
+Salary Range
+
+$152,600.00 - $283,400.00
+
+Skills Desired
+
+Cross-Functional Collaboration, Customer Engagement, Customer Insights, Data Analytics, Digital Marketing, Market Research, Media Campaigns, Product Marketing, Stakeholder Engagement, Stakeholder Management, Team Leadership, Waterfall Model",ok,2026-10-22 21:44 UTC
+5790344,"Staff Software Engineer, Infrastructure Data Engineering",Pinterest,https://dailyremote.com/remote-job/staff-software-engineer-infrastructure-data-engineering-5790344,https://dailyremote.com/apply/5790344?nonce=60c014873d43cf82,$177K - $364K per year,Full Time,United States,10+ yrs,"Software Development, Software Engineer",3 Days Ago,"python, aws, recruiting, cloud, creative, medical, communication, hiring, testing, software-engineering, data-engineering, documentation, organization","Set technical direction and build reliable, scalable data products—including production pipelines, models, and services—for infrastructure usage, cost attribution, ownership, and planning. Lead ambiguous cross-functional initiatives through design, rollout, and adoption while improving data quality, operational reliability, and team effectiveness.","About Pinterest:
+
+Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product.
+
+Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the [flexibility](https://www.pinterestcareers.com/our-life/pinflex/) to do your best work. Creating a career you love? It’s Possible.
+
+At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experience and abilities, we’ll explore your foundational skills and how you collaborate with AI.
+
+Through our interview process, what matters most is that you can always explain your approach, showing us not just what you know, but how you think. You can read more about our AI interview philosophy and how we use AI in our recruiting process [here](https://www.pinterestcareers.com/our-philosophy-on-ai-in-hiring/).
+
+Pinterest is seeking a Staff Software Engineer to build the data systems that help teams understand and manage infrastructure usage and cost. You’ll lead the design and hands-on delivery of reliable data products, including pipelines, models, and services, that support infrastructure planning, cost attribution, and budget workflows. In this individual-contributor role, you’ll shape technical direction, navigate complex cross-team work, and make infrastructure data more accurate, consistent, and useful.
+
+What you’ll do:
+
+- Set technical direction and help define a roadmap for reliable, scalable infrastructure data products
+- Design, build, and operate production ingestion and transformation pipelines, data models, and services for infrastructure usage, cost, ownership, and planning
+- Strengthen shared data products with clear contracts, automated quality checks, reconciliation, documentation, and operational monitoring
+- Lead ambiguous, cross-functional initiatives from problem definition and technical trade-offs through rollout and adoption; raise the engineering bar through mentorship and design reviews
+- Leverage AI to scale the impact of yourself and the team, including:
+  - Accelerate investigation of data-quality or pipeline issues while validating findings against source data and production evidence
+  - Speed up implementation and documentation of data transformations and interfaces while testing and reviewing the results
+  - Explore ways to help partners self-serve trusted infrastructure insights, protecting sensitive information and verifying outputs
+
+What we’re looking for:
+
+- Bachelor’s degree in computer science, a related field, or equivalent practical experience
+- Significant experience designing, building, and operating production data systems or data-intensive services at scale
+- Strong software engineering skills in Python and SQL, with a record of writing tested, maintainable production code
+- Deep experience with ingestion, large-scale ETL and transformation, data modeling, and workflow orchestration
+- Experience designing data interfaces and contracts and improving quality, freshness, completeness, and consistency
+- A track record of leading complex technical work across teams, from framing ambiguous problems to delivery and operation
+- Ability to influence through technical judgment and clear communication and to mentor other engineers
+- Experience operating dependable data pipelines or services, including testing, monitoring, and incident response
+- Experience with AWS or similar cloud environments
+- Demonstrated ability to use AI to improve speed and quality in your day-to-day workflow for relevant outputs
+- Strong track record of critical evaluation and verification of AI-assisted work (e.g., testing, source-checking, data validation, peer review)
+- High integrity and ownership: you protect sensitive data, avoid over-reliance on AI, and remain accountable for final decisions and deliverables
+- Bonus points for the following:
+  - Experience with infrastructure cost or usage data, budgeting, shared data platforms, dbt, data lineage, or modeling hierarchical ownership
+  - Hands-on experience with large, cloud-native multi-tenant platforms at Internet scale
+
+In-Office Requirement Statement:
+
+- We recognize that the ideal environment for work is situational and may differ across departments. What this looks like day-to-day can vary based on the needs of each organization or role.
+- This role will need to be in the office for in-person collaboration 1-2 times/month and therefore can be situated anywhere in the country.
+
+Relocation Statement:
+
+- This position is not eligible for relocation assistance. Visit our [PinFlex](https://www.pinterestcareers.com/pinflex/) page to learn more about our working model.
+
+#LI-REMOTE
+
+#LI-JT1
+
+At Pinterest we believe the workplace should be equitable, inclusive, and inspiring for every employee. In an effort to provide greater transparency, we are sharing the base salary range for this position. The position is also eligible for equity. Final salary is based on a number of factors including location, travel, relevant prior experience, or particular skills and expertise.
+
+_Information regarding the culture at Pinterest and benefits available for this position can be found [here](https://www.pinterestcareers.com/pinterest-life/)._
+
+US based applicants only
+
+$177,185—$364,795 USD
+
+Our Commitment to Inclusion:
+
+Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you require a medical or religious accommodation during the job application process, please complete [this form](https://forms.gle/sS24D4WboEKUZMQK6) for support.
+
+_By submitting this application, I certify that all information submitted in my application and throughout the hiring process is true, accurate, and complete to the best of my knowledge. I understand that any false statement, omission, or misrepresentation may disqualify me from employment consideration or result in termination if discovered after hire._",ok,2026-10-22 21:44 UTC
+5790025,Mechanical Data Engineer (Mechanical + Data Engineering Required) 3 Month Contract Role,Foundation EGI,https://dailyremote.com/remote-job/mechanical-data-engineer-mechanical-data-engineering-required-3-month-contract-role-5790025,https://dailyremote.com/apply/5790025?nonce=74f4f55b5ee5c4e3,,"Freelance, Full Time",United States,5-10 yrs,"Software Development, Data Engineer",3 Days Ago,"illustration, qa, communication, feedback, training, data-engineering, mechanical-engineering, data-engineer","Create, structure, and quality-check mechanical engineering datasets, CAD reference models, annotations, and technical artifacts for AI training, evaluation, and customer delivery. Collaborate with product, research, engineering, and customer teams to improve data workflows, define quality standards, support customer data preparation, and ensure reliable project delivery.","We are an MIT-born, venture-backed Silicon Valley startup building Engineering General Intelligence (EGI)—an AI Copilot for design and manufacturing. Our mission is to fundamentally reinvent how physical products are designed and built, dramatically accelerating the pace of product development.
+
+As an Individual Contributor on the Data Studio team, you will play a key role in transforming raw customer data into structured, high-fidelity datasets that power model training, evaluation, and customer delivery. This role is deeply hands-on and sits at the intersection of product, research, and engineering. You will apply your mechanical engineering and manufacturing expertise to create data pipelines, labeling workflows, reference models, and quality checks that ensure the accuracy and reliability of our AI systems. Mechanical engineering or manufacturing design experience is essential; candidates without this background will not be considered.
+
+\\n
+
+Key Responsibilities
+
+- 1\. Data Creation, Processing & Quality
+- Ingest, clean, transform, and structure customer and internally generated engineering data for AI training and inference.
+- Design and build high-quality mechanical components and assemblies in CAD to serve as authoritative ground truth for evaluating and training AI systems.
+- Produce labeled datasets, reference designs, annotations, exploded views, sequences, and other engineering artifacts that encode real-world reasoning.
+- Apply engineering judgment to define and assess output quality across datasets.
+- Continuously refine standards for metadata, annotation, and model quality, maintaining a living “definition of quality” for ME datasets.
+
+- 2\. Workflow & Tooling Contributions
+- Collaborate with Product Managers to shape tooling used for annotation, data correction, model-output review, and pipeline automation.
+- Provide detailed feedback on tool usability, workflow efficiency, and automation opportunities.
+- Help develop scalable, repeatable data processes that improve throughput and data consistency.
+
+- 3\. Cross-Functional Collaboration
+- Partner closely with engineering and research teams to understand model data requirements, failure modes, and areas needing new data.
+- Influence model behavior by supplying representative engineering examples and ground-truth mechanical designs.
+- Partner with customer-facing teams to translate domain requirements, industry standards, and customer data schemas into actionable dataset specifications.
+- Serve as a subject matter expert on mechanical engineering formats, CAD standards, manufacturing practices, and design artifacts.
+
+- 4\. Domain Expertise & Reference Content Creation
+- Generate technical documentation, exploded views, sequences, and annotations that encode engineering reasoning into training data.
+- Ensure that datasets reflect real-world constraints, DFM (Design for Manufacturing) considerations, material behavior, and industry best practices.
+- Embed engineering reasoning into training data so that AI systems learn not just geometry or text, but engineering intent.
+
+- 5\. Customer & Project Support
+- Work with customers to understand their data sources, schemas, formats, and quality expectations.
+- Guide customers in preparing high-quality datasets, defining structured schemas, and improving data pipelines.
+- Support delivery timelines by communicating progress clearly and surfacing risks or issues early.
+- Review and work with external contractors, ensuring high-quality output and adherence to SOPs.
+
+Required Qualifications
+
+- Strong domain expertise in mechanical engineering, manufacturing design, or industrial workflows.
+- Hands-on experience with CAD tools such as SolidWorks, CATIA, Siemens NX, or Creo.
+- Familiarity with annotation tools and illustration software (e.g., Creo Illustrate, Adobe Illustrator, Arbortext).
+- Ability to interpret complex mechanical assemblies, technical drawings, GD&T, and engineering documentation.
+- Experience creating artifacts like exploded views, work-step sequences, repair manuals, or manufacturing instructions.
+- Strong problem-solving skills and the ability to translate domain workflows into structured data requirements.
+- Excellent communication and cross-functional collaboration skills.
+
+Preferred Qualifications
+
+- Experience with data operations, labeling workflows, ML data pipelines, or AI/ML data lifecycle (collection -> labeling -> QA -> training -> evaluation -> deployment).
+- Experience in fast-paced startup or high-growth environments.
+- Comfort with customer-facing discovery or solutioning.
+
+What Success Looks Like
+
+- Deliver high-quality datasets that measurably improve model performance.
+- Drive standardization and reliability across ME datasets, CAD models, workflows, metadata, and annotations.
+- Enable faster model training, evaluation, and deployment through strong cross-functional collaboration.
+- Maintain clear documentation, repeatable processes, and continuous quality improvement.
+- Be recognized as a trusted ME expert in data quality and domain insight.
+
+\\n",ok,2026-10-22 21:44 UTC
+5789670,"Director of Engineering, Data Labs",Invisible Technologies,https://dailyremote.com/remote-job/director-of-engineering-data-labs-5789670,https://dailyremote.com/apply/5789670?nonce=7c0b51ff781aedd0,$252K - $300K per year,Full Time,United States,10+ yrs,"Others, Director of Engineering",3 Days Ago,"recruiting, training, hiring, interviewing, organization, talent-acquisition, supply-chain, compliance","Set the multi-year technical strategy and roadmap for Data Labs, guiding investment in shared platforms, benchmarking, data pipelines, and reinforcement learning environments. Lead a multi-team engineering organization while advising clients and executives, shaping evaluation and data practices, and partnering with research, product, and commercial teams.","## About Invisible
+
+Invisible Technologies makes AI work. Our end-to-end AI platform structures messy data, automates digital workflows, deploys agentic solutions, measures outcomes, and integrates human expertise where it matters most.
+
+Our platform cleans, labels, and structures company data so it is ready for AI. It adapts models to each business and adds human expertise when needed, the same approach we have used to improve models for more than 80% of the world’s top AI companies, including Microsoft, AWS, and Cohere.
+
+Our successes span industries, from supply chain automation for Swiss Gear to AI-enabled naval simulations with SAIC, and validating NBA draft picks for the Charlotte Hornets.
+
+Profitable for more than half a decade, Invisible reached $134M in revenue and ranked as the number two fastest growing AI company on the 2024 Inc. 5000. In September 2025, we raised $100M in growth capital to accelerate our mission of making AI actually work in the enterprise and to advance our platform technology.
+
+## About the Role
+
+We're looking for a Director of Engineering to set the technical strategy for Data Labs, the team that builds the benchmarking systems, data pipelines, and RL environments behind our AI training engagements. The frontier labs and enterprises we work with are changing how they train, evaluate, and deploy models every quarter. Your job is to see where that market is going and make sure Data Labs is built for it before our clients ask.
+
+You'll decide which capabilities we invest in, which we standardize into platform, and which we leave to individual engagements. You'll track how training methods, evaluation practices, and data needs are shifting across the industry, and turn that into a technical roadmap and a point of view our commercial and research teams can sell against.
+
+You'll lead a group of engineering managers, forward deployed engineers (FDEs), and senior ICs, and partner closely with applied research, product, and go-to-market leadership. This is a hands-on strategic role. You won't spend much time writing code, but you'll stay close enough to the technical work to make and defend hard architectural calls, and close enough to clients to know which calls matter.
+
+## What You'll Do
+
+### Technical Strategy & Roadmap
+
+- Own the multi-year technical strategy for Data Labs, and translate it into a roadmap tied to where the AI training and evaluation market is heading.
+- Decide where to build shared platform versus engagement-specific solutions, weighing reuse against team autonomy so platforms speed teams up rather than creating over-dependency.
+- Set architectural direction for benchmarking infrastructure, data pipelines, and RL environments so they stay reproducible, portable across client deployments, and ready for the next generation of training methods.
+- Anticipate technical shifts 6–18 months out, such as new post-training techniques, agentic evaluation, and synthetic data, and place the bets that keep Invisible ahead of them.
+- Set expectations for how AI is used in design reviews and day-to-day engineering work.
+
+### Market Intelligence & Competitive Positioning
+
+- Build a clear, current view of how frontier labs and enterprises are training, evaluating, and deploying models, and what that means for the data and infrastructure they'll need from us.
+- Track the competitive landscape across AI data, evaluation, and RL environment providers, and help define where Invisible differentiates.
+- Turn client signals, research developments, and market trends into investment recommendations for executive leadership.
+- Partner with product and commercial teams to shape new offerings, pricing logic, and the technical story behind them.
+
+### Evaluation & Data Strategy
+
+- Define Invisible's point of view on benchmarking and evaluation, including pre- and post-engagement comparisons, capability gap analyses, and regression tracking.
+- Make sure evaluation design ties to client-defined success metrics, validate automated checks against human judgment, and be explicit about what each approach can't see.
+- Identify reusable data assets, frameworks, and pipelines that become durable advantages and improve margins across engagements.
+- Shape practices for data licensing, privacy, and contamination risk as a strategic differentiator, not just a compliance requirement.
+
+### Client & Executive Engagement
+
+- Represent engineering in executive conversations, strategic client relationships, and pre-sales, translating technical reality into clear, honest narratives.
+- Act as a trusted technical advisor to client research and engineering leaders, bringing back what you learn to inform the roadmap.
+- Help leaders weigh client-specific asks against broader platform and business goals, with clear short- and long-term paths.
+
+### Organizational Leadership
+
+- Lead and grow an engineering org of multiple teams, including engineering managers, senior managers, FDEs, and Staff+ ICs.
+- Coach managers to build sound technical judgment and strategic awareness in their teams.
+- Build hiring pipelines that reinforce a rigorous, client-focused, strategy-aware engineering culture.
+- Make sure the org has the planning, quality, and operational practices it needs to execute on the strategy reliably, delegating day-to-day delivery to strong managers.
+
+## What We're Looking For
+
+- 10+ years in software engineering, with significant experience building ML or AI systems.
+- 5+ years in engineering leadership, including experience managing managers across multiple teams.
+- A track record of setting multi-year technical strategy and making platform investment decisions that paid off commercially.
+- Deep, current understanding of the AI training and evaluation landscape, including how frontier labs and enterprises approach fine-tuning, RLHF/RLAIF, and evaluation methodology.
+- Hands-on familiarity with LLM training pipelines, deep enough to make and defend architectural decisions.
+- Experience building benchmarking, data curation, or RL infrastructure that produced measurable client outcomes.
+- Ability to read market and competitive signals and turn them into a technical roadmap and a clear product point of view.
+- Strong cross-functional partnership with applied research, product, and commercial teams.
+- Excellent executive communication, and confidence acting as a technical advisor in client and pre-sales conversations.
+
+## Nice to Have
+
+- Prior experience at an AI services firm, applied research consultancy, frontier lab, or enterprise AI product company.
+- A visible point of view on the AI data and evaluation market, such as talks, writing, or open-source work.
+- Familiarity with data licensing, synthetic data generation, or contamination detection involving client data.
+- Experience shaping new product lines or service offerings from a technical foundation.
+- Experience leading an org through rapid growth or significant change.
+
+What’s In It For You
+
+Invisible is committed to fair and competitive pay, ensuring that compensation reflects both market conditions and the value each team member brings. Our salary structure accounts for regional differences in cost of living while maintaining internal equity.
+
+For this position, the annual salary will include a 20% annual bonus and an additional incentive structure. The base salary range for SF/NY are:
+
+Salary Range
+
+$252,000—$300,000 USD
+
+You can find more information about our geographic pay tiers [here](https://invisibletech.ai/compensation-and-pay-tiers). During the interview process, your Invisible Talent Acquisition Partner will confirm which tier applies to your location. For candidates outside the U.S., compensation is adjusted to reflect local market conditions and cost of living.
+
+*Bonuses and equity are included in all full-time offers. Final compensation is determined by a combination of factors, including location, job-related experience, skills, knowledge, internal pay equity, and overall market conditions. Because of this, every offer is unique. Additional details on total compensation and benefits will be discussed during the hiring process.
+
+## What It's Like to Work at Invisible:
+
+At Invisible, we’re not just redefining work—we’re reinventing it. We operate at the intersection of advanced AI and human ingenuity, pushing the boundaries of what’s possible to unlock productivity and scale. Ownership is at the core of everything we do. Here, you won’t just execute tasks—you’ll build, innovate, and shape the future alongside world-class clients pushing the boundaries of AI.
+
+We expect bold ideas, relentless drive, and the ability to turn ambiguity into opportunity. The pace is fast, the challenges are big, and the growth is unmatched. We’re not for everyone, and we’re okay with that. If you’re looking for predictable routines, this isn’t the place for you. But if you’re driven to create, thrive in dynamic environments, and want a front-row seat to the AI revolution, you’ll fit right in.
+
+_Country Hiring Guidelines:_ _Invisible is a hybrid organization with offices and team members located around the world. While some roles may offer remote flexibility, most positions involve in-office collaboration and are tied to specific locations. Any location-based requirements or hybrid expectations will be communicated by our Talent Acquisition team during the recruiting process._
+
+__AI Interviewing Guidelines:__
+
+__Our hiring team thoughtfully uses AI to support an efficient, engaging, and inclusive interview process. Since AI can also be a helpful tool for candidates, we've outlined expectations for using it ethically throughout your interview journey._ _[Click here to learn more about how we use AI and our guidelines for candidates.](https://www.invisible.co/ai-interview-guidelines)__
+
+_Accessibility Statement:__We are committed to providing reasonable accommodations for individuals with disabilities. If you require an accommodation to participate in the application or interview process, please submit your request using our accommodation request form. A member of our team will follow up to support your request.__Here is the link the google form: [https://docs.google.com/forms/d/e/1FAIpQLScqsu0PCQ0m0lwt-VFeXovNbZxWk0jogv8QI\_ciGqZsIbSBjQ/viewform?usp=sharing&ouid=102356854798492362557](https://docs.google.com/forms/d/e/1FAIpQLScqsu0PCQ0m0lwt-VFeXovNbZxWk0jogv8QI_ciGqZsIbSBjQ/viewform?usp=sharing&ouid=102356854798492362557)_
+
+_Equal Opportunity Statement:_ _We’re an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, or veteran status, or any other basis protected by law._
+
+_Due to a high volume of candidates, Invisible may use automated decision-maker technologies to filter candidates based on response to our application questions and other provided information. Our use of automated decision-making enables us to be efficient by providing a manageable list of possible candidates that meet our mandatory hiring criteria. If you object to our use of automated decision-making please contact us._",ok,2026-10-22 21:45 UTC
+5788633,"Director, Data Engineering",SQUIRE,https://dailyremote.com/remote-job/director-data-engineering-5788633,https://dailyremote.com/apply/5788633?nonce=272eb115722f4b70,$200K - $230K per year,Full Time,United States,10+ yrs,Others,3 Days Ago,"machine-learning, python, sql, artificial-intelligence, insurance, architecture, business-management, reporting, leadership, hiring, data-engineering, organization","Lead the data organization and own its long-term architecture, strategy, hiring, budget, and technical standards while remaining hands-on building and debugging critical data pipelines. Partner with company leaders to improve integrations and data quality, and enable company-wide automation and AI use cases on a trusted data foundation.","SQUIRE is the leading business management system designed for the needs of barbers, shop owners, and their communities. We believe the pursuit of artistry and autonomy should not be restricted by the complexities of running a business. With SQUIRE, we provide custom-branded tools, resources, and guidance to help barbers of all stages and experience levels attract and retain more customers, efficiently manage their shop operations, and increase their revenue.
+
+Founded in 2015, SQUIRE is trusted by more than 30,000 barbers across 5,000+ shops in more than a thousand cities worldwide. From streamlined booking and opening new shops to real-time earning dashboards and building lasting customer relationships, SQUIRE supports shop owners in seamlessly bridging the gap between their personal craft and business goals. SQUIRE enables barbers everywhere to unlock their full potential both as artists and as entrepreneurs.
+
+For more information, please visit [getsquire.com](http://getsquire.com/) or download the SQUIRE app from the [App](https://apps.apple.com/us/app/squire/id957644357) or [Play](https://play.google.com/store/apps/details?hl=en_US&id=com.getsquire.flagship) Store.
+
+💈  WHO WE ARE
+
+SQUIRE is the leading business management system designed for the needs of barbers, shop owners, and their communities. We believe the pursuit of artistry and autonomy should not be restricted by the complexities of running a business. With SQUIRE, we provide custom-branded tools, resources, and guidance to help barbers of all stages and experience levels attract and retain more customers, efficiently manage their shop operations, and increase their revenue.
+
+Founded in 2015, SQUIRE is trusted by more than 30,000 barbers across 5,000+ shops in more than a thousand cities worldwide. From streamlined booking and opening new shops to real-time earning dashboards and building lasting customer relationships, SQUIRE supports shop owners in seamlessly bridging the gap between their personal craft and business goals. SQUIRE enables barbers everywhere to unlock their full potential both as artists and as entrepreneurs.
+
+For more information, please visit [getsquire.com](http://getsquire.com/) or download the SQUIRE app from the App or Play Store.
+
+🎯 ABOUT THE ROLE
+
+- At SQUIRE, trusted data turns information into action - powering everything from company-wide reporting and automation to the AI capabilities shaping our next chapter. We're hiring a Director, Data Engineering to build and lead our Data organization through a player-coach model, spending approximately half your time hands-on in the code and the other half developing engineers, setting technical direction, and owning the organization’s strategy. You’ll own SQUIRE’s long-term data architecture and lead a growing team spanning Data Engineering, Machine Learning Engineering, and Analytics.
+
+Success in this role means building a data foundation the company trusts by default, with reliable pipelines, clear standards, and scalable systems. You'll have the authority and accountability to make architectural and organizational decisions needed to move the function forward while helping the team grow in both capability and impact. As SQUIRE continues to scale, your work will directly enable more confident decision-making, stronger automation, and AI use cases that power our next phase of growth.
+
+Reports To: Chief Product and Technology Officer
+
+Location: Remote - US or Canada
+
+Type: Full-Time
+
+Compensation: Base ($200,000 - $230,000) + Bonus (15%)
+
+🧰 YOUR CRAFT (Job Duties & Responsibilities)
+
+- Design, build, and debug the highest-impact pipelines, connecting our business systems, including CRM, billing, and internal platforms to our Snowflake warehouse, in both directions
+
+- Own the data strategy and architecture across a multi-year horizon, while maintaining deep, hands-on familiarity with the systems and their edge cases
+
+- Establish technical direction and standards for pipeline design, data modeling, and data quality across the org; personally build and ship the highest-risk or most ambiguous work
+
+- Build, structure, and lead a growing Data organization of 5+ across Data Engineering, ML Engineering, and Analytics
+
+- Own headcount planning, hiring strategy, and budget for the Data organization
+
+- Partner with the Chief Product and Technology Officer and cross-functional leaders to translate company strategy into data contracts and platform investments
+
+- Lead audits of existing integrations and automations, and determine what should be replaced and how that work should be prioritized
+
+- Champion AI and automation enablement company-wide, ensuring agents and LLM use cases are built on a trusted data foundation, while remaining hands-on in building select enablement capabilities
+
+_The duties and responsibilities outlined above are not a comprehensive list, and additional tasks may be assigned from time to time based on business needs._
+
+⚙️ YOUR FOUNDATION (Experience & Skills)
+
+- 8+ years in data or software engineering, including 4+ years managing engineers
+
+- Experience building and leading a multidisciplinary data organization (data, ML, analytics, software) of 5+ people
+
+- Advanced SQL and Python skills, along with strong MDM fundamentals, with the technical depth to lead by example
+
+- Hands-on experience with Snowflake (or equivalent), dbt, and an orchestration tool such as Airflow, Dagster, or Prefect, beyond just an architectural understanding
+
+- Direct experience setting AI and LLM enablement strategy and building with LLM tooling
+
+- Comfortable operating at Director scope ( _owning budgets, advocating for roadmaps, and translating technical tradeoffs for non-technical stakeholders_) while remaining directly involved in technical execution
+
+✂️ EXTRA CUT (Nice to Haves)
+
+- Experience building AI agents with LLMs ( _wired models into real systems with tool use, retrieval, and orchestration_) and with the ability to guide others doing similar work
+
+- Backend engineering experience (ideally in JS/TS) with sufficient depth to effectively evaluate architecture
+
+- Strong ML and MLOps knowledge, with the ability to set direction, assess technical tradeoffs, and support ML Engineering Leads
+
+- Experience with Salesforce, Stripe, Gong, or reverse ETL (Polytomic), and data governance / PII handling at a company-wide policy level
+
+_Don’t let this list stop you from applying - If you are interested in the role, we’d love to hear from you!_
+
+🚀 WHY SQUIRE?
+
+- As a Director, Data Engineering, you’ll have real ownership over a function the whole company depends on, a mandate to develop its leadership structure, and the charter to define the data foundation for SQUIRE's AI future — with the authority to turn that strategy into a lasting practice.
+
+🎁 WHAT WE OFFER
+
+- Base Salary ($200,000 - $230,000) +  Bonus (15%)
+
+- New hire stock grant
+
+- 100% employer-paid medical/dental/vision insurance for you and your dependents
+
+- 401K plan with company contribution
+
+- Generous PTO and Parental Leave policies
+
+Interview Accommodations
+
+SQUIRE is committed to working with and providing reasonable assistance to individuals with physical and mental disabilities. If you are an individual with a disability requiring an accommodation to apply for an open position, please email your request to recruiting@getsquire.com and someone on our team will respond to your request.
+
+Equal Employment Opportunity
+
+SQUIRE provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
+
+This applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.
+
+Pay Transparency Nondiscrimination Provision
+
+SQUIRE will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information.
+
+A few things to know about our hiring process: We are committed to making hiring at SQUIRE fair, thoughtful, and accessible for every candidate. Below are a few important details about our hiring practices and policies.
+
+────────────────────────
+
+🤝 Interview Accommodations SQUIRE is committed to working with and providing reasonable assistance to individuals with physical and mental disabilities. If you are an individual with a disability requiring an accommodation to apply for an open position, please email your request to [recruiting@getsquire.com](http://getsquire.com/) and someone on our team will respond to you shortly.
+
+⚖️ Equal Employment Opportunity SQUIRE provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
+
+This applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.
+
+💬 Pay Transparency Nondiscrimination Provision SQUIRE will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information.
+
+🤖 AI in the Hiring Process SQUIRE may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment with all final hiring decisions ultimately made by humans. If you would like more information about how your data is processed, please contact us.",ok,2026-10-22 21:45 UTC

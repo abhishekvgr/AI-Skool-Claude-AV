@@ -1,0 +1,131 @@
+{
+  "colorScheme": "dark",
+  "fonts": [
+    {
+      "family": "Switzer",
+      "role": "body"
+    },
+    {
+      "family": "SF Mono",
+      "role": "monospace"
+    },
+    {
+      "family": "Fira Code",
+      "role": "monospace"
+    },
+    {
+      "family": "Jet Brains Mono",
+      "role": "monospace"
+    },
+    {
+      "family": "Menlo",
+      "role": "monospace"
+    }
+  ],
+  "colors": {
+    "primary": "#D73A3A",
+    "accent": "#4D1A1A",
+    "background": "#080808",
+    "textPrimary": "#FAFAFA",
+    "link": "#4D1A1A"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Switzer",
+      "heading": "Switzer"
+    },
+    "fontStacks": {
+      "heading": [
+        "Switzer",
+        "system-ui",
+        "sans-serif"
+      ],
+      "body": [
+        "Switzer",
+        "system-ui",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "ui-monospace",
+        "SF Mono",
+        "Fira Code",
+        "JetBrains Mono",
+        "Menlo",
+        "monospace"
+      ]
+    },
+    "fontSizes": {
+      "h1": "60.8px",
+      "h2": "12.8px",
+      "body": "11.52px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "input": {
+      "background": "#111111",
+      "textColor": "#FAFAFA",
+      "borderColor": "#262626",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#F5654A",
+      "textColor": "#080808",
+      "borderColor": "#F5654A",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#080808",
+      "textColor": "#FAFAFA",
+      "borderColor": "#262626",
+      "borderRadius": "8px",
+      "borderRadiusCorners": {
+        "topLeft": "8px",
+        "topRight": "8px",
+        "bottomRight": "8px",
+        "bottomLeft": "8px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://openclaw.ai/favicon.svg",
+    "favicon": "https://openclaw.ai/favicon.svg",
+    "ogImage": "https://openclaw.ai/og-image.png",
+    "logoHref": "/",
+    "logoAlt": "OpenClaw home"
+  },
+  "personality": {
+    "tone": "bold",
+    "energy": "high",
+    "targetAudience": "developers"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 1,
+    "colors": 0.84,
+    "overall": 0.9199999999999999
+  },
+  "brandName": "OpenClaw",
+  "logo": "https://openclaw.ai/favicon.svg"
+}
