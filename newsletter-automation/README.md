@@ -43,3 +43,5 @@ Open this folder in Claude Code and say:
 > Create this week's newsletter on AI news
 
 Claude follows `workflows/create_newsletter.md` and runs the tools in order.
+
+See a full example run, from prompt to Gmail draft: [examples/2026-10-22-agentic-ai](examples/2026-10-22-agentic-ai/).

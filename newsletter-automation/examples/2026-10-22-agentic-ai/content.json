@@ -1,0 +1,56 @@
+{
+  "newsletter_name": "AI Weekly",
+  "issue_date": "October 22, 2026",
+  "subject": "Agentic AI: open standards, sandboxes and lab agents",
+  "preheader": "Anthropic, OpenAI, Google and Hugging Face move the agent stack into the open.",
+  "title": "Agents grow up: open standards, safer sandboxes and real work",
+  "hero_image": "hero.png",
+  "intro": "This week, agentic AI looked less like a demo and more like infrastructure. The biggest labs put core agent building blocks under shared governance, Google pitched hardware built for agents, and agents started touching real government workflows, lab procurement and scientific data.\n\nHere's what happened and why it matters.",
+  "sections": [
+    {
+      "heading": "Rivals put the agent stack under one roof",
+      "body": "On October 22, the Linux Foundation's **Agentic AI Foundation (AAIF)** added four projects: **Agent Skills** from Anthropic, **Open Responses** from OpenAI, **OpenEnv** from Hugging Face and **OpenSandbox** from Alibaba. Together they cover portable agent skills, a shared model API, training and evaluation environments, and sandboxed execution.\n\nThe foundation now hosts **10 projects** in its first year, up from three at launch in December 2025. [Linux Foundation](https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)\n\n**Why it matters:** when competitors donate the same layers of the stack to a neutral home, skills and tools you build for one platform are more likely to work on the next.",
+      "image": "infographic_1.png",
+      "image_alt": "Agentic AI Foundation grew from 3 projects at launch to 10 projects, including Agent Skills, Open Responses, OpenEnv and OpenSandbox"
+    },
+    {
+      "heading": "Google builds a computer for every agent",
+      "body": "Google Cloud announced **Agent Compute Engine**, which gives each agent its own hardware-isolated micro-VM and is designed to keep credentials out of the sandbox. It comes with governance tools: agent identity, an agent registry, and an **Agent Gateway** for enforcing policy and overseeing traffic. A preview is planned for the coming months. [Google Cloud](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance)\n\n**Why it matters:** as agents act across tools and systems, isolation and central control are becoming part of the sales pitch, not just model quality."
+    },
+    {
+      "heading": "Gemini agents head to government",
+      "body": "On October 20, Google Public Sector launched **Gemini for government services** in preview for U.S. federal, state and local agencies. It targets policy research, document intake, public-records requests and redactions, and procurement review. Google says it is working with the **State of Missouri** and the **U.S. Department of Health and Human Services**. [Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services)\n\n**Why it matters:** government administration is sensitive and process-heavy, so it's a demanding test of whether agents can fit into existing systems and governance."
+    },
+    {
+      "heading": "Thousands of agents, 32 minutes, new biology leads",
+      "body": "OpenAI, PerturbAI and Scripps Research used **thousands of AI agents** in parallel to analyze data from millions of mouse brain cells and thousands of gene perturbations. The analysis took **32 minutes**, and researchers preferred the distributed agents' reports over a single agent's **75% of the time**. [OpenAI](https://openai.com/index/scaling-ai-research-for-complex-biological-data/)\n\nThe team is careful to call the results research leads and hypotheses, not confirmed mechanisms, and says lab experiments are still needed.\n\n**Why it matters:** parallel agents can compress weeks of exploratory analysis into minutes, but generating hypotheses quickly is not the same as validating them.",
+      "image": "infographic_2.png",
+      "image_alt": "Thousands of AI agents analyzed millions of brain cells in 32 minutes; researchers preferred their reports 75% of the time"
+    },
+    {
+      "heading": "From research plan to purchase order",
+      "body": "Scientist.com announced agents that find research services, match labs, compare proposals and start purchasing through existing procurement workflows. Its network includes **more than 6,000 qualified suppliers** with legal agreements already in place. Outside assistants can connect through **MCP**, and organizations can keep a human approval step for supplier selection and spending. [Business Wire](https://www.businesswire.com/news/home/20261022796429/en/)\n\n**Why it matters:** this moves agents from recommending what to do to coordinating real lab services and money, with humans kept in the loop at the points that matter."
+    },
+    {
+      "heading": "Follow the money: back-office agents and agent oversight",
+      "body": "- **IBM Ventures invested in Leena AI** (amount not disclosed), whose AI Colleague platform runs multi-step HR, IT and Finance workflows across SAP, Workday, Salesforce, Oracle and ServiceNow. Leena AI says it serves **500+ enterprises**. [PR Newswire](https://www.morningstar.com/news/pr-newswire/20261020ny76597/ibm-ventures-invests-in-leena-ai-to-accelerate-agentic-ai-across-the-enterprise-back-office)\n- **Asymptote Labs raised a $5.5M seed round** led by Tower Research Ventures, with South Park Commons, Lytical Ventures and 1984 Ventures. Its open-source **Beacon** runtime data layer gives visibility into what agents do. [SecurityWeek](https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/)\n\n**Why it matters:** investors are backing both sides of the same trend: agents that take action inside enterprise software, and the tools to watch and control them."
+    }
+  ],
+  "takeaways": [
+    "The agent stack is standardizing: Anthropic, OpenAI, Hugging Face and Alibaba projects now sit in one neutral foundation.",
+    "Isolation and governance (sandboxes, agent identity, gateways) are becoming core infrastructure.",
+    "Agents are moving into high-stakes work like government services, lab procurement and scientific analysis.",
+    "Human approval and runtime monitoring are where the guardrails are being built."
+  ],
+  "outro": "That's it for this week. Hit reply and tell me which agent story you want unpacked next.",
+  "sources": [
+    {"title": "Linux Foundation: AAIF announces four new projects", "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"},
+    {"title": "Google Cloud: Agent Compute Engine and expanded agent governance", "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"},
+    {"title": "Google Cloud: Gemini for government services", "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"},
+    {"title": "OpenAI: Using thousands of AI agents to uncover new leads in biological data", "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"},
+    {"title": "Business Wire: Scientist.com launches agentic AI for research procurement", "url": "https://www.businesswire.com/news/home/20261022796429/en/"},
+    {"title": "PR Newswire: IBM Ventures invests in Leena AI", "url": "https://www.morningstar.com/news/pr-newswire/20261020ny76597/ibm-ventures-invests-in-leena-ai-to-accelerate-agentic-ai-across-the-enterprise-back-office"},
+    {"title": "SecurityWeek: Asymptote Labs raises $5.5 million", "url": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/"},
+    {"title": "Tower Research Ventures: Asymptote Labs investment", "url": "https://tower-research.com/asymptote-labs-the-system-of-record-for-agentic-work/"}
+  ]
+}
