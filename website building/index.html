@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AV AI DE Society — Data engineering with AI, built in the open</title>
+  <meta name="description" content="AV AI DE Society is a community of data engineers who use AI agents to pull, shape and ship data. Every project comes with its prompt, code, cost and lessons.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="assets/logo-black.png">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: 'var(--background)',
+            fg: 'var(--foreground)',
+            muted: 'var(--muted-foreground)',
+            line: 'var(--border)',
+            primary: { DEFAULT: 'var(--primary)', hover: 'var(--primary-hover)', active: 'var(--primary-active)' },
+            ink: { DEFAULT: 'var(--ink)', fg: 'var(--ink-foreground)', muted: 'var(--ink-muted)', subtle: 'var(--ink-subtle)', line: 'var(--ink-line)', surface: 'var(--ink-surface)' },
+            teal: 'var(--teal)',
+          },
+          fontFamily: { sans: ['Geist', 'system-ui', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <style>
+    /* reference look: violet brand hue, navy ink sections, teal for confirmations */
+    :root {
+      --brand-hue: 277;
+      --background: oklch(.99 .004 var(--brand-hue));
+      --hero-bg: oklch(.975 .007 var(--brand-hue));
+      --foreground: #18181c;
+      --muted-foreground: #5a5a61;
+      --border: oklch(.92 .005 var(--brand-hue));
+      --primary: oklch(.64 .16 var(--brand-hue));
+      --primary-hover: oklch(.56 .165 var(--brand-hue));
+      --primary-active: oklch(.48 .155 var(--brand-hue));
+      --primary-light: #abadec;
+      --accent-quiet: var(--primary);
+      --ink: #1e2030;
+      --ink-foreground: #f4f5f9;
+      --ink-muted: #aeb0bb;
+      --ink-subtle: #777a85;
+      --ink-line: #3d3f4c;
+      --ink-surface: #2f3241;
+      --teal: #30a06a;
+      --ring: #abadec;
+      --ease-spring: cubic-bezier(.34, 1.3, .64, 1);
+      --btn-shadow: 0 1px 2px oklch(.48 .155 var(--brand-hue) / .18), 0 4px 12px oklch(.56 .165 var(--brand-hue) / .16);
+    }
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+    body { background: var(--background); color: var(--foreground); font-family: Geist, system-ui, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    ::selection { background: var(--primary); color: #fafafa; }
+    :focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; border-radius: 6px; }
+
+    .wrap { max-width: calc(1237px + 128px); margin-inline: auto; padding-inline: 16px; }
+    @media (min-width: 768px) { .wrap { padding-inline: 64px; } }
+    @media (min-width: 1024px) { .wrap { padding-right: 49px; } }
+
+    .h-display { font-size: clamp(2.5rem, 4.4vw, 3.6rem); line-height: 1.1; letter-spacing: -.03em; font-weight: 500; }
+    .h-section { font-size: clamp(2rem, 3.6vw, 2.95rem); line-height: 1.12; letter-spacing: -.025em; font-weight: 500; }
+
+    .btn { display: inline-flex; align-items: center; gap: .6rem; background: var(--primary); color: #fafafa; font-weight: 500; border-radius: .75rem; box-shadow: var(--btn-shadow); transition: background-color .15s ease, transform .2s var(--ease-spring); }
+    .btn:hover { background: var(--primary-hover); }
+    .btn:active { background: var(--primary-active); transform: scale(.97); }
+    .btn .arrow { transition: transform .25s var(--ease-spring); }
+    .btn:hover .arrow { transform: translateX(3px); }
+    .btn-sm { height: 2.5rem; padding-inline: 1.5rem; font-size: .9rem; }
+    .btn-lg { height: 3rem; padding-inline: 1.5rem; font-size: 1rem; }
+
+    .navlink { color: #3f3f46; font-size: .95rem; transition: color .15s ease; }
+    .navlink:hover { color: var(--primary); }
+    .navlink:active { color: var(--primary-active); }
+
+    /* step progress */
+    .step-bar { transform-origin: left; transform: scaleX(0); }
+    .step.is-active .step-bar { animation: fill 6s linear forwards; }
+    @keyframes fill { to { transform: scaleX(1); } }
+    .step .step-body { display: none; }
+    .step.is-active .step-body { display: block; }
+    .step .step-title { color: var(--ink-subtle); transition: color .2s ease; }
+    .step:hover .step-title { color: var(--ink-muted); }
+    .step.is-active .step-title { color: var(--ink-foreground); }
+
+    /* audience strip */
+    .marquee { display: flex; gap: 16px; width: max-content; animation: slide 60s linear infinite; }
+    .marquee:hover { animation-play-state: paused; }
+    @keyframes slide { from { transform: translateX(-152px); } to { transform: translateX(calc(-50% - 152px - 8px)); } }
+    .aud-card .go { transition: transform .25s var(--ease-spring), background-color .15s ease; }
+    .aud-card:hover .go { transform: translateX(2px) scale(1.06); background: var(--primary-hover); }
+    .aud-card:active .go { transform: scale(.94); }
+
+    /* faq */
+    details summary { list-style: none; cursor: pointer; }
+    details summary::-webkit-details-marker { display: none; }
+    details .ico { transition: transform .25s var(--ease-spring); }
+    details[open] .ico { transform: rotate(45deg); }
+    details summary:hover .q { color: var(--primary); }
+
+    .flink { color: var(--ink-muted); transition: color .15s ease; }
+    .flink:hover { color: var(--ink-foreground); }
+
+    /* hero particles: the component's gradient, recoloured to the brand hue */
+    #particles-js { background: linear-gradient(to top right, #f5f6fb 0%, #e4e5f8 55%, #cfd1f4 100%); }
+    #particles-js canvas { display: block; }
+    /* keeps the headline legible: particles show fully on the right, softly behind the copy */
+    .hero-scrim {
+      background:
+        linear-gradient(to bottom, #f5f6fb 0, rgb(245 246 251 / 0) 72px),
+        linear-gradient(90deg, rgb(245 246 251 / .9) 0%, rgb(245 246 251 / .72) 38%, rgb(245 246 251 / 0) 62%);
+    }
+    @media (max-width: 1023px) {
+      .hero-scrim { background: linear-gradient(to bottom, #f5f6fb 0, rgb(245 246 251 / .78) 72px, rgb(245 246 251 / .78) 100%); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .marquee { animation: none; }
+      .step.is-active .step-bar { animation: none; transform: scaleX(1); }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="relative z-20" style="background: var(--hero-bg)">
+    <div class="wrap flex h-16 items-center justify-between">
+      <div class="flex items-center gap-10">
+        <a href="#" aria-label="AV AI DE Society home" class="flex shrink-0 items-center gap-2.5">
+          <img src="assets/logo-black.png" alt="AVai" class="h-7 w-auto">
+          <span class="text-[1.05rem] font-semibold tracking-[-.02em]">DE Society</span>
+        </a>
+        <nav class="hidden items-center gap-7 lg:flex" aria-label="Main">
+          <a href="#projects" class="navlink">Projects</a>
+          <a href="#method" class="navlink">How we build</a>
+          <a href="#lessons" class="navlink">Lessons</a>
+          <a href="#faq" class="navlink">FAQ</a>
+        </nav>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV" class="btn btn-sm" style="height:2rem;padding-inline:.75rem;font-size:.95rem">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="relative isolate overflow-hidden" style="background: var(--hero-bg)">
+      <div id="particles-js" class="pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
+      <div class="hero-scrim pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
+      <div class="wrap grid items-center gap-12 pb-24 pt-12 lg:grid-cols-[1fr_580px] lg:gap-0 lg:pt-[80px]">
+        <div class="max-w-[600px]">
+          <h1 class="h-display text-fg">Data pipelines with AI,<br><em class="font-medium text-primary" style="letter-spacing:-.035em">built in the open.</em></h1>
+          <p class="mt-8 max-w-[570px] text-[1.3rem] leading-[1.75] text-muted">AV AI DE Society is a community of data engineers who use AI agents to pull, shape and ship data.</p>
+          <p class="mt-6 text-[.95rem] leading-[1.7] text-muted">Every project in our repo comes with the prompt that started it, the code that ran, what it cost and what went wrong along the way.</p>
+          <p class="mt-6 text-[.95rem] leading-[1.65] text-fg">Scrape a job board into a Google Sheet. Turn a week of news into a Gmail draft.<br class="hidden sm:block"> Then <a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV" class="text-primary hover:underline">share how you did it</a>, so the next person doesn't start from zero.</p>
+          <a href="#projects" class="btn btn-lg mt-10">See the projects <svg class="arrow" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <figure class="relative lg:-mr-[24px] lg:ml-[24px] lg:self-start">
+          <img src="assets/projects/newsletter-gmail-draft.jpg" alt="Gmail draft of the Agentic AI newsletter, produced by the Newsletter Automation project" class="photo aspect-[580/509] w-full rounded-2xl border border-line bg-white object-cover object-top" style="box-shadow: 0 2px 6px rgb(0 0 0 / .06), 0 24px 60px rgb(0 0 0 / .10)">
+          <figcaption class="mt-3 text-[.85rem] text-muted">Newsletter Automation: "write a newsletter about Agentic AI" became this Gmail draft.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Stat band -->
+    <section class="relative overflow-hidden bg-ink" aria-label="Example run">
+      <div class="pointer-events-none absolute inset-y-0 left-0 w-[420px]" style="background: radial-gradient(60% 90% at 25% 50%, rgb(48 160 106 / .18), transparent 70%)"></div>
+      <div class="wrap relative flex flex-col items-center gap-8 py-14 text-center md:flex-row md:gap-9 md:pl-[165px] md:text-left">
+        <div class="grid h-[140px] w-[140px] shrink-0 place-items-center rounded-full" style="box-shadow: 0 0 0 2px rgb(48 160 106 / .55)">
+          <img src="assets/logo-white.png" alt="" class="h-9 w-auto">
+        </div>
+        <figure>
+          <p class="text-[1.65rem] font-medium leading-tight tracking-[-.02em] text-ink-fg md:text-[2.15rem]">20 data engineering jobs, from one link to a Google Sheet, for 24 scraping credits.</p>
+          <figcaption class="mt-6">
+            <div class="text-[1.05rem] text-ink-fg">DailyRemote jobs to Google Sheets</div>
+            <div class="text-[.85rem] text-ink-muted">Example run from the Scrapper project, October 22, 2026</div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section id="why" class="pt-20">
+      <div class="wrap">
+        <h2 class="h-section">Every project ships with its prompt, code and cost.</h2>
+        <p class="mt-4 max-w-[1000px] text-[1.25rem] leading-[1.6] text-muted">No slides and no theory first. Each example in the repo is a real run you can read top to bottom and repeat: what was asked, which tools ran in which order, what came out, and the lessons.</p>
+        <figure class="mb-24 mt-14">
+          <img src="assets/projects/dailyremote-sheet.jpg" alt="Google Sheet with 20 scraped data engineering job listings" class="photo w-full rounded-2xl border border-line bg-white p-3 sm:p-6">
+          <figcaption class="mt-3 text-[.85rem] text-muted">The Scrapper run's output: 20 rows and 16 columns, pushed straight into a new Google Sheet.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Method -->
+    <section id="method" class="bg-ink py-20">
+      <div class="wrap">
+        <h2 class="h-section text-ink-fg">How every society project is built.</h2>
+        <p class="mt-4 max-w-[560px] text-[1.25rem] leading-[1.6] text-ink-muted">Workflows, agents and tools: plain-language instructions, an AI agent that makes the calls, and Python scripts that do the work.</p>
+
+        <div class="mt-16 grid gap-12 lg:grid-cols-[453px_1fr] lg:gap-16">
+          <ol class="flex flex-col justify-center" id="steps">
+            <li class="step is-active border-b border-ink-line" data-i="0">
+              <button type="button" class="w-full py-4 text-left">
+                <span class="step-title block text-[1.25rem] leading-[1.55] tracking-[-.01em]">Start with a one-line prompt.</span>
+                <span class="step-body mt-3 text-[.85rem] leading-[1.7] text-ink-muted">"write a newsletter about Agentic AI" was the whole brief for our first newsletter run.</span>
+              </button>
+              <div class="step-bar-track -mb-px h-[2px] w-[30%]"><div class="step-bar h-full" style="background: var(--primary-light)"></div></div>
+            </li>
+            <li class="step border-b border-ink-line" data-i="1">
+              <button type="button" class="w-full py-4 text-left">
+                <span class="step-title block text-[1.25rem] leading-[1.55] tracking-[-.01em]">Probe before you spend.</span>
+                <span class="step-body mt-3 text-[.85rem] leading-[1.7] text-ink-muted">One scrape first, to see how the page is built and how much is really there. It found 249 jobs, not the 1,700 expected.</span>
+              </button>
+              <div class="step-bar-track -mb-px h-[2px] w-[30%]"><div class="step-bar h-full" style="background: var(--primary-light)"></div></div>
+            </li>
+            <li class="step border-b border-ink-line" data-i="2">
+              <button type="button" class="w-full py-4 text-left">
+                <span class="step-title block text-[1.25rem] leading-[1.55] tracking-[-.01em]">Let scripts do the work.</span>
+                <span class="step-body mt-3 text-[.85rem] leading-[1.7] text-ink-muted">The agent follows a workflow and runs tested Python tools in order: research, write, render, deliver.</span>
+              </button>
+              <div class="step-bar-track -mb-px h-[2px] w-[30%]"><div class="step-bar h-full" style="background: var(--primary-light)"></div></div>
+            </li>
+            <li class="step border-b border-ink-line" data-i="3">
+              <button type="button" class="w-full py-4 text-left">
+                <span class="step-title block text-[1.25rem] leading-[1.55] tracking-[-.01em]">Ship it and write down the lessons.</span>
+                <span class="step-body mt-3 text-[.85rem] leading-[1.7] text-ink-muted">Output goes where people use it, like Sheets or Gmail, and every surprise goes back into the workflow.</span>
+              </button>
+              <div class="step-bar-track -mb-px h-[2px] w-[30%]"><div class="step-bar h-full" style="background: var(--primary-light)"></div></div>
+            </li>
+          </ol>
+          <div class="flex min-h-[420px] flex-col rounded-2xl bg-white p-6 text-black sm:p-10 lg:aspect-[720/600]">
+            <div class="text-[.85rem] text-muted" id="step-where"></div>
+            <pre class="mt-6 flex-1 overflow-x-auto whitespace-pre-wrap break-words font-mono text-[.9rem] leading-[1.8] sm:text-[1rem]" id="step-code"></pre>
+            <div class="mt-6 border-t border-line pt-5 text-[.95rem] font-medium" id="step-result"></div>
+          </div>
+        </div>
+
+        <div class="mt-12 flex justify-center">
+          <a href="#projects" class="btn btn-sm">See the projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="pt-20">
+      <div class="wrap flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+        <div>
+          <h2 class="h-section max-w-[660px]">Projects from the repo.</h2>
+          <p class="mt-6 max-w-[460px] text-[1.25rem] leading-[1.55] text-muted">Two projects and four example runs so far, each with its full write-up on GitHub.</p>
+        </div>
+        <a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV" class="btn btn-sm self-start md:self-auto">Browse the repo</a>
+      </div>
+
+      <ul class="wrap mt-11 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" id="project-grid">
+        <!-- filled by script -->
+      </ul>
+    </section>
+
+    <!-- Lessons -->
+    <section id="lessons" class="pt-40">
+      <div class="wrap">
+        <h2 class="h-section">What the runs taught us.</h2>
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <figure class="flex flex-col rounded-2xl border border-line bg-white p-7">
+            <blockquote class="flex-1 text-[1.25rem] leading-[1.5] tracking-[-.01em]"><span class="text-primary">“</span>Check the count first. The user expected about 1,700 jobs. The search actually had 249. A single scrape caught this before any money was spent.</blockquote>
+            <figcaption class="mt-10 border-t border-line pt-5">
+              <div class="text-[.9rem] font-medium">DailyRemote jobs to Google Sheets</div><div class="text-[.8rem] text-muted">Scrapper</div>
+            </figcaption>
+          </figure>
+          <figure class="flex flex-col rounded-2xl border border-line bg-white p-7">
+            <blockquote class="flex-1 text-[1.25rem] leading-[1.5] tracking-[-.01em]"><span class="text-primary">“</span>Image models still misspell words, so keep in-image text short and check every image.</blockquote>
+            <figcaption class="mt-10 border-t border-line pt-5">
+              <div class="text-[.9rem] font-medium">Agentic AI newsletter</div><div class="text-[.8rem] text-muted">Newsletter Automation</div>
+            </figcaption>
+          </figure>
+          <figure class="flex flex-col rounded-2xl border border-line bg-white p-7">
+            <blockquote class="flex-1 text-[1.25rem] leading-[1.5] tracking-[-.01em]"><span class="text-primary">“</span>Map plus one screenshot scrape is enough for "map this site and show me". No crawl was needed.</blockquote>
+            <figcaption class="mt-10 border-t border-line pt-5">
+              <div class="text-[.9rem] font-medium">Blue Bottle Coffee site map</div><div class="text-[.8rem] text-muted">Scrapper</div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="pb-20 pt-40">
+      <div class="wrap">
+        <h2 class="h-section">FAQ</h2>
+        <div class="mt-10 border-t border-line" id="faq-list">
+          <details class="group border-b border-line" open>
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">Who is the society for?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">Data engineers, analysts and anyone who moves data for a living and wants AI agents doing more of the collecting, cleaning and delivering.</p>
+          </details>
+          <details class="border-b border-line">
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">What does a run cost?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">From our examples: about $0.02 of Perplexity research for a newsletter, 24 Firecrawl credits for 20 job listings, 2 credits for a 452-URL site map, and 1 scrape for a branding breakdown. Google Sheets is free.</p>
+          </details>
+          <details class="border-b border-line">
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">Which tools do the projects use?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">Claude Code as the agent, Firecrawl for scraping and site maps, the Perplexity Agent API for research, Nano Banana through Kie.ai for images, and the Google Sheets and Gmail APIs for delivery.</p>
+          </details>
+          <details class="border-b border-line">
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">Do I need to know Python?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">It helps. You describe the job and the agent runs the tools, but you'll want to read a script and fix it when a site changes.</p>
+          </details>
+          <details class="border-b border-line">
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">How do I share a project?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">Add a folder with a workflow, your tools and an example run write-up, the same way newsletter-automation and scrapper are laid out.</p>
+          </details>
+          <details class="border-b border-line">
+            <summary class="flex items-center justify-between gap-6 py-6"><span class="q text-[1.25rem] tracking-[-.01em] transition-colors">Where do API keys go?</span><svg class="ico shrink-0 text-primary" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></summary>
+            <p class="-mt-1 pb-6 text-[.9rem] leading-[1.7] text-muted">In a .env file inside each project, never in code or commits. Each project ships a .env.example to copy.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-ink text-ink-fg">
+    <div class="wrap">
+      <div class="flex flex-col gap-6 border-b border-ink-line pb-14 pt-20 md:flex-row md:items-center md:justify-between">
+        <h2 class="h-section">Ship your first pipeline this week.</h2>
+        <a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV" class="btn btn-sm self-start md:self-auto" style="height:2.25rem;padding-inline:1rem">Browse the repo</a>
+      </div>
+      <div class="grid gap-12 py-12 md:grid-cols-[1fr_260px_260px] lg:grid-cols-[639px_319px_1fr] lg:gap-0">
+        <div>
+          <div class="flex items-center gap-2.5">
+            <img src="assets/logo-white.png" alt="AVai" class="h-7 w-auto">
+            <span class="text-[1.05rem] font-semibold tracking-[-.02em]">DE Society</span>
+          </div>
+          <p class="mt-5 max-w-[260px] text-[.95rem] leading-[1.6] text-ink-muted">Data engineering with AI, <em class="font-medium text-ink-fg">built in the open.</em></p>
+        </div>
+        <nav aria-label="Society">
+          <div class="text-[.9rem] text-ink-subtle">Society</div>
+          <ul class="mt-6 space-y-3.5 text-[.9rem]">
+            <li><a href="#projects" class="flink">Projects</a></li>
+            <li><a href="#method" class="flink">How we build</a></li>
+            <li><a href="#lessons" class="flink">Lessons</a></li>
+            <li><a href="#faq" class="flink">FAQ</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Repo">
+          <div class="text-[.9rem] text-ink-subtle">Repo</div>
+          <ul class="mt-6 space-y-3.5 text-[.9rem] leading-[1.5]">
+            <li><a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV" class="flink">GitHub</a></li>
+            <li><a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV/tree/main/newsletter-automation" class="flink">Newsletter Automation</a></li>
+            <li><a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV/tree/main/scrapper" class="flink">Scrapper</a></li>
+            <li><a href="https://github.com/abhishekvgr/AI-Skool-Claude-AV/blob/main/scrapper/FIRECRAWL_CHEATSHEET.md" class="flink">Firecrawl cheat sheet</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="border-t border-ink-line py-8 text-[.9rem] text-ink-subtle">© 2026 AV AI DE Society</div>
+    </div>
+  </footer>
+
+  <script>
+    const REPO = 'https://github.com/abhishekvgr/AI-Skool-Claude-AV/tree/main';
+
+    // Projects: one card per example run in the repo
+    const projects = [
+      { project: 'Newsletter Automation', title: 'Agentic AI newsletter', meta: 'Topic in, Gmail draft out. 6 stories, 3 images.', img: 'assets/projects/newsletter-hero.jpg', path: 'newsletter-automation/examples/2026-10-22-agentic-ai' },
+      { project: 'Scrapper', title: 'DailyRemote jobs to Google Sheets', meta: '20 jobs, 16 columns, 24 credits.', img: 'assets/projects/dailyremote-sheet.jpg', path: 'scrapper/examples/2026-10-22-dailyremote-data-engineering' },
+      { project: 'Scrapper', title: 'Blue Bottle Coffee site map', meta: 'Every URL grouped by purpose, 2 credits.', stat: '452', statLabel: 'URLs mapped', path: 'scrapper/examples/2026-10-22-bluebottle-sitemap' },
+      { project: 'Scrapper', title: 'clawd.bot branding breakdown', meta: 'Colors, type, layout and voice, from 1 scrape.', stat: '1', statLabel: 'scrape', path: 'scrapper/examples/2026-10-22-openclaw-branding' },
+    ];
+    const card = (p) => `
+      <li class="aud-card relative h-[384px] overflow-hidden rounded-2xl bg-ink">
+        ${p.img
+          ? `<img src="${p.img}" alt="" class="absolute inset-x-0 top-0 h-[62%] w-full bg-white object-cover object-left-top">`
+          : `<div class="absolute inset-x-6 top-6"><div class="text-[5rem] font-medium leading-none tracking-[-.04em] text-white">${p.stat}</div><div class="mt-2 text-[.95rem] text-ink-muted">${p.statLabel}</div></div>`}
+        <div class="absolute inset-0" style="background:linear-gradient(to top, rgb(4 5 10 / .97) 0%, rgb(14 15 26 / .9) 38%, transparent 66%)"></div>
+        <a href="${REPO}/${p.path}" class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4">
+          <span>
+            <span class="block text-[.85rem] text-ink-muted">${p.project}</span>
+            <span class="mt-1 block text-[.95rem] font-medium leading-snug text-white">${p.title}</span>
+            <span class="mt-1 block text-[.85rem] leading-snug text-ink-muted">${p.meta}</span>
+          </span>
+          <span class="go grid h-9 w-9 shrink-0 place-items-center rounded-full bg-primary text-white"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m-4-4 4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </li>`;
+    document.getElementById('project-grid').innerHTML = projects.map(card).join('');
+
+    // How we build: each step shows the real command from an example run
+    const stepPanels = [
+      { where: 'Claude Code, opened in newsletter-automation/', code: '> write a newsletter about Agentic AI', result: 'Claude read the workflow and ran each tool in order.' },
+      { where: 'Scrapper test run, before the full budget', code: 'python tools/scrape_dailyremote.py \\\n  --search "data engineering" \\\n  --limit 2', result: '2 jobs, 3 credits: company, apply link and description all parsed.' },
+      { where: 'Newsletter Automation, in order', code: 'python tools/research_topic.py --topic "Agentic AI" --recency week\npython tools/generate_infographic.py\npython tools/render_newsletter.py --content content.json\npython tools/create_gmail_draft.py --content content.json', result: '8 cited stories in, 6 written up, 3 images, about $0.02 of research.' },
+      { where: 'Scrapper, delivering the output', code: 'python tools/push_to_sheets.py \\\n  --csv .tmp/dailyremote/jobs.csv', result: 'A new Google Sheet: 20 rows, 16 columns, header row frozen.' },
+    ];
+    const steps = [...document.querySelectorAll('.step')];
+    const showPanel = (i) => {
+      document.getElementById('step-where').textContent = stepPanels[i].where;
+      document.getElementById('step-code').textContent = stepPanels[i].code;
+      document.getElementById('step-result').textContent = stepPanels[i].result;
+    };
+    const activate = (i) => {
+      steps.forEach((s, j) => s.classList.toggle('is-active', i === j));
+      showPanel(i);
+    };
+    steps.forEach((s, i) => {
+      s.querySelector('button').addEventListener('click', () => activate(i));
+      s.querySelector('.step-bar').addEventListener('animationend', () => activate((i + 1) % steps.length));
+    });
+    showPanel(0);
+
+    // FAQ: one open at a time
+    const faqs = [...document.querySelectorAll('#faq-list details')];
+    faqs.forEach((d) => d.addEventListener('toggle', () => { if (d.open) faqs.forEach((o) => o !== d && (o.open = false)); }));
+  </script>
+
+  <!-- Hero background: particles.js, ported from the particles-bg React component -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    (function () {
+      const hero = document.getElementById('hero');
+      if (!hero || !window.particlesJS) return;
+      const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // the component's settings, recoloured to the brand violet
+      const colors = { particles: '#7579e7', lines: '#8f92ea', accent: '#5b5fd6' };
+      window.particlesJS('particles-js', {
+        particles: {
+          number: { value: 140, density: { enable: true, value_area: 800 } },
+          color: { value: colors.particles },
+          shape: { type: 'circle', stroke: { width: 0.5, color: colors.accent } },
+          opacity: { value: 0.7, random: true, anim: { enable: !still, speed: 1, opacity_min: 0.3 } },
+          size: { value: 3, random: true, anim: { enable: !still, speed: 2, size_min: 1 } },
+          line_linked: { enable: true, distance: 160, color: colors.lines, opacity: 0.4, width: 1.2 },
+          move: { enable: !still, speed: 2, random: true, out_mode: 'bounce' },
+        },
+        interactivity: {
+          detect_on: 'canvas',
+          events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
+          modes: {
+            grab: { distance: 220, line_linked: { opacity: 0.8 } },
+            push: { particles_nb: 4 },
+            repulse: { distance: 180, duration: 0.4 },
+          },
+        },
+        retina_detect: true,
+      });
+
+      // The canvas sits behind the hero copy, so it never receives the pointer itself.
+      // Forward the hero's pointer position to particles.js so grab and push still work.
+      const pJS = window.pJSDom[window.pJSDom.length - 1].pJS;
+      const mouse = pJS.interactivity.mouse;
+      const toCanvas = (e) => {
+        const r = hero.getBoundingClientRect();
+        const ratio = pJS.tmp.retina ? pJS.canvas.pxratio : 1;
+        return [(e.clientX - r.left) * ratio, (e.clientY - r.top) * ratio];
+      };
+      hero.addEventListener('pointermove', (e) => {
+        [mouse.pos_x, mouse.pos_y] = toCanvas(e);
+        pJS.interactivity.status = 'mousemove';
+      }, { passive: true });
+      hero.addEventListener('pointerleave', () => {
+        mouse.pos_x = null;
+        mouse.pos_y = null;
+        pJS.interactivity.status = 'mouseleave';
+      });
+      hero.addEventListener('click', (e) => {
+        if (e.target.closest('a, button')) return;
+        [mouse.click_pos_x, mouse.click_pos_y] = toCanvas(e);
+        mouse.pos_x = mouse.click_pos_x;
+        mouse.pos_y = mouse.click_pos_y;
+        pJS.fn.modes.pushParticles(4, mouse);
+      });
+    })();
+  </script>
+</body>
+</html>
